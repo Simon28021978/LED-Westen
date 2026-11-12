@@ -5,6 +5,14 @@ Stand: 2026-11-12 · Platzhalter in [eckigen Klammern] vor dem Versand füllen.
 **Vor dem Versand prüfen:**
 - Dauer der Globetrotter-Partnerschaft exakt bestätigen (3 oder 4 Jahre). Bis dahin steht „seit mehreren Jahren“ im Text.
 - Sichtbarkeit „bis zu 400 m“ ist eine Herstellerangabe. Normnachweis nur nennen, wenn er schriftlich vorliegt.
+- InnoLab-Bezug und 36 Monate Garantie stammen aus dem Suchindex von globetrotter.de: vor Versand auf der Seite bzw. intern bestätigen.
+
+## Belegte Fakten zur Globetrotter-Partnerschaft
+- Globetrotter hat eine eigene Markenseite für heyReflect: https://www.globetrotter.de/marken/heyreflect/
+- 4 Produkte gelistet: Kinderweste (44,90 €), Kindercape (44,90 €), Sports Vest (49,90 €), Adult Vest (54,90 €)
+- Globetrotter stellt heyReflect als Beispiel seines Gründerprogramms InnoLab vor
+- Produktseiten nennen 36 Monate Garantie
+- Laut Angabe der Gründerin: Partnerschaft seit 3–4 Jahren, jährliche Nachorder (intern, nicht öffentlich belegt)
 
 ---
 
@@ -21,7 +29,7 @@ Stand: 2026-11-12 · Platzhalter in [eckigen Klammern] vor dem Versand füllen.
 >
 > ich bin [Vorname Nachname], Gründerin von heyReflect aus Großhansdorf bei Hamburg. Wir entwickeln LED-Warnwesten und -Capes, mit denen Kinder im Dunkeln schon von Weitem gesehen werden.
 >
-> **Globetrotter führt unsere Westen seit mehreren Jahren und bestellt jede Saison nach.** Die Nachfrage ist also im Fachhandel erprobt, und wir würden gern prüfen, ob die Westen auch zu [Firma] passen.
+> **Globetrotter führt unsere Westen seit mehreren Jahren mit eigener Markenseite und vier Produkten im Sortiment und bestellt jede Saison nach.** Entstanden ist die Zusammenarbeit über das Gründerprogramm InnoLab von Globetrotter. Die Nachfrage ist also im Fachhandel erprobt, und wir würden gern prüfen, ob die Westen auch zu [Firma] passen.
 >
 > **Warum jetzt:** Die dunkle Jahreszeit ist da, und Eltern suchen gezielt nach Sichtbarkeit für den Schul- und Kitaweg.
 >
@@ -30,6 +38,8 @@ Stand: 2026-11-12 · Platzhalter in [eckigen Klammern] vor dem Versand füllen.
 > - USB-Akku statt Knopfzelle, bis zu 10 Stunden Laufzeit
 > - mitwachsend per Klettverschluss, drei Größen von 86 bis 146
 > - als Cape auch passend über dem Schulranzen
+> - 36 Monate Garantie
+> - auch für Erwachsene und Sport erhältlich, als Ergänzung im Sortiment
 >
 > **Konditionen:** Händlerpreise ab [100] Stück, alle Größen ab Lager. [200] Stück liefern wir innerhalb von [X] Werktagen, also noch rechtzeitig für das Weihnachtsgeschäft.
 >
