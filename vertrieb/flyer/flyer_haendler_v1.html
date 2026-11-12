@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>heyReflect – Händler-Flyer v1 (Entwurf)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Grundlagen ---------- */
+  @page { size: A4; margin: 0; }
+  :root {
+    --neon: #E4FF1A;        /* Neongelb (Markenfarbe, Wert vom Original bestätigen) */
+    --neon-dk: #C8E000;
+    --logo-yellow: #F5CF00; /* Logo-Gelb, Annäherung – Originalwert einsetzen */
+    --black: #111111;
+    --ink: #1c1c1c;
+    --grey: #5c5c5c;
+    --light: #f3f3ee;
+    --red: #E2231A;
+    --ph-bg: #E6F4FF;       /* Platzhalter-Markierung: hellblau, fällt bewusst aus dem Farbschema */
+    --ph-bd: #2B7BD6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #888; }
+  body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    font-size: 9.6pt;
+    line-height: 1.38;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  h1, h2, h3, .mont { font-family: "Montserrat", "Inter", Arial, sans-serif; }
+  .page {
+    width: 210mm; height: 297mm;
+    margin: 0 auto 10mm; background: #fff;
+    position: relative; overflow: hidden;
+    page-break-after: always; break-after: page;
+    display: flex; flex-direction: column;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; margin-bottom: 0; }
+  @media print { html, body { background: #fff; } .page { margin: 0; } }
+  .inner { padding: 0 12mm; }
+
+  /* ---------- Platzhalter ---------- */
+  .ph {
+    background: var(--ph-bg); color: #0d4f99;
+    border-radius: 2px; padding: 0 0.6mm; font-weight: 600;
+    white-space: nowrap;
+  }
+  .ph-box {
+    background: repeating-linear-gradient(45deg, #eef6ff 0 6px, #dcebfb 6px 12px);
+    border: 1.2px dashed var(--ph-bd); color: #0d4f99;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    font-weight: 600; font-size: 7.6pt; line-height: 1.25; padding: 2mm;
+  }
+  .dark .ph-box { background: repeating-linear-gradient(45deg, #1f2a36 0 6px, #18212b 6px 12px); color: #9cc8f5; border-color: #5aa0e6; }
+
+  /* ---------- Kopfband ---------- */
+  .topbar {
+    background: #fff; color: var(--ink);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 4.5mm 12mm 3.5mm; border-bottom: 1px solid #e6e6e0;
+  }
+  .logo-ph { border: 1.2px dashed var(--ph-bd); padding: 1mm 3mm 1mm; border-radius: 1mm; }
+  .wordmark { font-family: "Montserrat", Arial, sans-serif; font-weight: 800; font-size: 19pt; line-height: 1; letter-spacing: -.02em; color: #2b2b2b; }
+  .wordmark .hey { color: var(--logo-yellow); }
+  .logo-ph small { display: block; font-size: 6.2pt; color: #0d4f99; font-weight: 600; margin-top: .6mm; background: var(--ph-bg); padding: 0 1mm; }
+  .topbar .claim { font-size: 8.4pt; color: var(--grey); text-align: right; letter-spacing: .02em; }
+  .topbar .claim b { color: var(--ink); font-weight: 700; }
+
+  /* ---------- Seite 1: Hero ---------- */
+  .hero { background: #fff; padding: 4.5mm 12mm 0; display: grid; grid-template-columns: 1fr 60mm; gap: 6mm; align-items: center; }
+  .hero h1 { font-size: 23pt; line-height: 1.14; font-weight: 800; letter-spacing: -.01em; }
+  .hero h1 .l2 { background: linear-gradient(transparent 10%, var(--neon) 10%, var(--neon) 94%, transparent 94%); padding: 0 1mm; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+  .hero p.sub { margin-top: 2.6mm; font-size: 9.6pt; color: #333; }
+  .hero .claim3 { margin-top: 3mm; display: flex; gap: 2.4mm; align-items: center; font-size: 8pt; color: var(--grey); }
+  .hero .claim3 .big { font-family: "Montserrat"; font-weight: 900; font-size: 20pt; line-height: 1; background: var(--black); color: var(--neon); padding: 1.2mm 2.2mm; border-radius: 1.5mm; }
+  .hero .claim3 b { color: var(--ink); font-size: 9.2pt; display: block; }
+  .photo { width: 60mm; height: 61.5mm; overflow: hidden; border-radius: 3mm; position: relative; background: #222; }
+  /* Bildausschnitt ohne Kfz-Marke, Kennzeichen und Rahmen-Schriftzug des Originals */
+  .photo img { position: absolute; width: 138.46%; left: 0; top: -7.7%; display: block; }
+  .photo .tag { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(13,79,153,.88); color: #fff; font-size: 6.2pt; padding: .8mm 1.6mm; font-weight: 600; }
+  .night { background: var(--black); color: #fff; padding: 4mm 12mm 3.6mm; margin-top: 4.5mm; }
+
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .panel { background: #0a0f1a; border-radius: 3mm; overflow: hidden; border: 1px solid #2a2f3a; }
+  .panel svg { display: block; width: 100%; height: auto; }
+  .panel .cap { padding: 2.2mm 3.2mm 2.8mm; font-size: 8.6pt; color: #d8d8d8; }
+  .panel .cap b { font-family: "Montserrat", Arial, sans-serif; font-size: 10pt; display: block; color: #fff; margin-bottom: .6mm; }
+  .panel.on { border-color: var(--neon); }
+  .panel.on .cap b { color: var(--neon); }
+
+  .range { margin-top: 4mm; }
+  .range .row { display: grid; grid-template-columns: 30mm 1fr; align-items: center; gap: 3mm; margin-bottom: 1.6mm; font-size: 8.4pt; }
+  .range .track { position: relative; height: 5mm; background: #23272f; border-radius: 2.5mm; }
+  .range .bar { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2.5mm; display: flex; align-items: center; justify-content: flex-end; padding-right: 2mm; font-weight: 700; font-size: 8.2pt; }
+  .range .bar.refl { width: 35%; background: #8a8f99; color: #111; }
+  .range .bar.led { width: 100%; background: var(--neon); color: #111; box-shadow: 0 0 6px rgba(228,255,26,.6); }
+  .range .note { font-size: 7.2pt; color: #a8a8a8; margin-top: 1mm; text-align: right; }
+
+  /* ---------- Abschnitte ---------- */
+  .sec { margin-top: 5mm; }
+  .sec h2 { font-size: 13.5pt; font-weight: 800; margin-bottom: 2.6mm; display: flex; align-items: center; gap: 2.4mm; }
+  .sec h2::before { content: ""; width: 3.2mm; height: 3.2mm; background: var(--neon); border: 1px solid #111; border-radius: 50%; flex: none; }
+
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .step { position: relative; background: var(--light); border-radius: 2.5mm; padding: 3mm 3mm 3mm; text-align: center; }
+  .step .num { position: absolute; top: 2mm; left: 2.4mm; font-family: "Montserrat"; font-weight: 800; font-size: 9pt; background: var(--black); color: var(--neon); width: 5.4mm; height: 5.4mm; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .step svg { width: 15mm; height: 15mm; display: block; margin: 0 auto 1.6mm; }
+  .step b { display: block; font-family: "Montserrat"; font-size: 9.6pt; margin-bottom: .6mm; }
+  .step span { font-size: 8.2pt; color: var(--grey); display: block; line-height: 1.3; }
+
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .tile { border: 1.2px solid #d8d8d0; border-radius: 2.5mm; overflow: hidden; display: flex; flex-direction: column; }
+  .tile .ph-box { height: 27mm; border-width: 0 0 1.2px 0; }
+  .tile .body { padding: 2.4mm 2.6mm 2.6mm; display: flex; flex-direction: column; flex: 1; }
+  .tile h3 { font-size: 9.6pt; font-weight: 800; line-height: 1.15; margin-bottom: 1mm; }
+  .tile .for { font-size: 7.8pt; color: var(--grey); line-height: 1.3; }
+  .tile .sizes { font-size: 7.6pt; margin-top: 1.2mm; line-height: 1.35; }
+  .tile .price { margin-top: auto; padding-top: 1.8mm; display: flex; align-items: baseline; justify-content: space-between; }
+  .tile .price .v { font-family: "Montserrat"; font-weight: 800; font-size: 13pt; background: var(--neon); padding: 0 1.4mm; border-radius: 1mm; }
+  .tile .price .u { font-size: 7.4pt; color: var(--grey); font-weight: 600; letter-spacing: .04em; }
+  .tile .chips { margin-top: 1.2mm; display: flex; gap: 1mm; }
+  .chip { width: 3.6mm; height: 3.6mm; border-radius: 50%; border: 1px solid #111; }
+
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .fact { display: flex; gap: 2mm; align-items: flex-start; font-size: 8.2pt; line-height: 1.3; }
+  .fact svg { width: 9mm; height: 9mm; flex: none; }
+  .fact b { display: block; font-size: 8.8pt; }
+
+  .foot {
+    margin-top: auto; background: var(--black); color: #cfcfcf;
+    padding: 3.6mm 12mm; font-size: 7.6pt; display: flex; justify-content: space-between; align-items: center;
+  }
+  .foot b { color: var(--neon); }
+
+  /* ---------- Seite 2 ---------- */
+  .hero2 { background: var(--neon); color: var(--black); padding: 6mm 12mm 6mm; }
+  .hero2 h1 { font-size: 28pt; font-weight: 900; line-height: 1.05; letter-spacing: -.01em; }
+  .hero2 p { margin-top: 2.4mm; font-size: 10.2pt; max-width: 170mm; }
+
+  .calc { display: grid; grid-template-columns: 1fr 9mm 1fr; align-items: stretch; gap: 0; }
+  .calc .col { border-radius: 2.5mm; padding: 3.4mm 4mm; }
+  .calc .col.a { background: var(--light); }
+  .calc .col.b { background: var(--black); color: #fff; }
+  .calc .vs { display: flex; align-items: center; justify-content: center; font-family: "Montserrat"; font-weight: 800; font-size: 9pt; color: var(--grey); }
+  .calc .lbl { font-size: 8pt; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; color: var(--grey); }
+  .calc .col.b .lbl { color: var(--neon); }
+  .calc table { width: 100%; border-collapse: collapse; margin-top: 2mm; font-size: 9pt; }
+  .calc td { padding: 1.1mm 0; border-bottom: 1px solid rgba(128,128,128,.3); }
+  .calc td:last-child { text-align: right; font-weight: 700; }
+  .calc tr.sum td { border-bottom: none; padding-top: 2mm; font-size: 11pt; font-family: "Montserrat"; font-weight: 800; }
+  .calc .col.b tr.sum td:last-child { color: var(--neon); }
+  .calc-note { font-size: 7.6pt; color: var(--grey); margin-top: 1.8mm; }
+
+  .two { display: grid; grid-template-columns: 1.15fr 1fr; gap: 5mm; }
+  .groups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.4mm; }
+  .grp { background: var(--light); border-radius: 2mm; padding: 2.2mm 2mm; text-align: center; font-size: 7.8pt; line-height: 1.25; }
+  .grp svg { width: 9mm; height: 9mm; display: block; margin: 0 auto 1mm; }
+  .grp b { display: block; font-size: 8.6pt; }
+  .grp.kid { background: var(--neon); }
+  .lead { font-size: 9pt; margin-bottom: 2.4mm; }
+
+  .proof { background: var(--black); color: #fff; border-radius: 2.5mm; padding: 4mm 4.4mm; height: 100%; display: flex; flex-direction: column; }
+  .proof .lbl { font-size: 7.8pt; text-transform: uppercase; letter-spacing: .08em; color: var(--neon); font-weight: 700; }
+  .proof q { display: block; quotes: none; font-family: "Montserrat"; font-weight: 800; font-size: 13.5pt; line-height: 1.2; margin: 2mm 0 2.4mm; }
+  .proof p { font-size: 8.8pt; color: #d6d6d6; }
+  .proof .ph { background: #1f3550; color: #a9d2ff; }
+  .proof .src { margin-top: auto; padding-top: 2.4mm; font-size: 7.2pt; color: #9a9a9a; }
+
+  .cond { width: 100%; border-collapse: collapse; font-size: 9pt; }
+  .cond th, .cond td { text-align: left; padding: 1.7mm 2.4mm; border-bottom: 1px solid #ddd; vertical-align: top; }
+  .cond th { width: 40%; font-weight: 600; color: var(--grey); }
+  .cond td { font-weight: 600; }
+  .cond tr:first-child th, .cond tr:first-child td { border-top: 2px solid var(--black); }
+
+  .contact { display: grid; grid-template-columns: 26mm 1fr 30mm; gap: 4mm; align-items: center; background: var(--black); color: #fff; border-radius: 2.5mm; padding: 4mm; }
+  .contact .ph-box { height: 30mm; }
+  .contact h3 { font-size: 13pt; font-weight: 800; color: var(--neon); line-height: 1.15; }
+  .contact .who { margin-top: 1.4mm; font-size: 9.4pt; }
+  .contact .who div { margin-top: .5mm; }
+  .contact .ph { background: #1f3550; color: #a9d2ff; }
+  .contact .qr { text-align: center; font-size: 7.2pt; color: #cfcfcf; line-height: 1.25; }
+  .contact .qr .ph-box { height: 26mm; width: 26mm; margin: 0 auto 1.2mm; }
+
+  .legend { font-size: 7pt; color: var(--grey); margin-top: 2mm; }
+  /* --- Verdichtung für A4 --- */
+  .sec { margin-top: 4mm; }
+  .sec h2 { font-size: 12.5pt; margin-bottom: 2mm; }
+  .step { padding: 2.4mm 2.4mm; }
+  .step svg { width: 11mm; height: 11mm; margin-bottom: 1mm; }
+  .tile .ph-box { height: 19mm; }
+  .panel .cap { padding: 1.6mm 3mm 2mm; font-size: 8.2pt; }
+  .range { margin-top: 3mm; }
+  .hero2 { padding: 5mm 12mm 5mm; }
+  .contact .ph-box { height: 26mm; }
+  .contact .qr .ph-box { height: 23mm; width: 23mm; }
+  .cond th, .cond td { padding: 1.4mm 2.4mm; }
+  .steps { gap: 2.4mm; }
+  .step { display: grid; grid-template-columns: 10mm 1fr; column-gap: 2mm; align-items: center; text-align: left; padding: 2.4mm 2.4mm 2.4mm 2.4mm; }
+  .step .num { position: absolute; top: -1.6mm; left: -1.2mm; width: 5mm; height: 5mm; font-size: 8pt; }
+  .step svg { width: 10mm; height: 10mm; margin: 0; grid-row: span 2; }
+  .step b { font-size: 9pt; margin: 0; }
+  .step span { font-size: 7.8pt; }
+  .tile .ph-box { height: 17mm; }
+  .tile .chips { margin: 0; }
+  .tile .price { gap: 2mm; }
+  .tile .price .chips { margin-right: auto; }
+  .hero p.sub { font-size: 9.3pt; }
+  .range .row { margin-bottom: 1.2mm; }
+  .sec h2 { margin-bottom: 1.8mm; }
+  .hero { grid-template-columns: 1fr 54mm; padding-top: 4mm; }
+  .hero h1 { font-size: 21pt; }
+  .photo { width: 54mm; height: 55.4mm; }
+  .night { margin-top: 4mm; padding-top: 3.4mm; padding-bottom: 3mm; }
+  .sec { margin-top: 3.4mm; }
+  .tile .price .v { white-space: nowrap; font-size: 12pt; }
+  .tile .chip { width: 3mm; height: 3mm; }
+  .facts { padding-bottom: 3.5mm; }
+</style>
+</head>
+<body>
+
+<!-- =====================================================================
+     SEITE 1 – PRODUKT & NUTZEN
+     ===================================================================== -->
+<section class="page" id="s1">
+  <div class="topbar">
+    <div class="logo-ph"><div class="wordmark"><span class="hey">hey</span>reflect</div><small>Platzhalter – Original-Logo einsetzen</small></div>
+    <div class="claim">LED-Warnwesten aus <b>Großhansdorf bei Hamburg</b></div>
+  </div>
+
+  <div class="hero">
+    <div>
+      <h1>Reflektoren warten auf Licht.<br><span class="l2">heyReflect leuchtet selbst.</span></h1>
+      <p class="sub">Eine Reflexweste wird erst sichtbar, wenn ein Scheinwerfer sie trifft. heyReflect-Westen sind Gurtwesten aus Reflexband mit eingenähten, hellen LEDs und Akku. Sie leuchten aktiv, auch von der Seite und aus der Kurve.</p>
+      <div class="claim3"><span class="big">3x</span><div><b>sicherer im Straßenverkehr</b>Herstellerangabe heyReflect <span class="ph">[Beleg/Quelle einsetzen]</span></div></div>
+    </div>
+    <div class="photo">
+      <img src="assets/foto_kind_led_dunkel.jpg" alt="Kind mit Fahrradhelm und leuchtender heyReflect-Gurtweste in der Dämmerung">
+      <div class="tag">Entwurfsfoto – Original in Druckauflösung nötig</div>
+    </div>
+  </div>
+
+  <div class="night dark">
+
+    <div class="compare">
+      <!-- Reflexweste -->
+      <div class="panel">
+        <svg viewBox="0 6 400 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reflexweste: nur im Scheinwerferlicht sichtbar">
+          <defs>
+            <linearGradient id="cone1" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#fff6c0" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#fff6c0" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <rect width="400" height="150" fill="#0a0f1a"/>
+          <!-- Sterne -->
+          <g fill="#3a4152"><circle cx="40" cy="14" r="1.2"/><circle cx="160" cy="10" r="1"/><circle cx="300" cy="18" r="1.2"/><circle cx="370" cy="8" r="1"/></g>
+          <!-- Straße (Draufsicht) -->
+          <rect x="0" y="62" width="400" height="74" fill="#1a1f2a"/>
+          <line x1="0" y1="99" x2="400" y2="99" stroke="#4a5060" stroke-width="2" stroke-dasharray="14 12"/>
+          <rect x="0" y="136" width="400" height="6" fill="#2a303c"/>
+          <rect x="0" y="56" width="400" height="6" fill="#2a303c"/>
+          <!-- Lichtkegel -->
+          <polygon points="88,108 330,84 330,134" fill="url(#cone1)"/>
+          <!-- Auto (Draufsicht) -->
+          <g>
+            <rect x="22" y="97" width="66" height="32" rx="8" fill="#c9ccd3"/>
+            <rect x="44" y="101" width="26" height="24" rx="4" fill="#5b6270"/>
+            <rect x="84" y="99" width="5" height="7" rx="1.5" fill="#fff8c8"/>
+            <rect x="84" y="120" width="5" height="7" rx="1.5" fill="#fff8c8"/>
+          </g>
+          <!-- Kind am Straßenrand, seitlich ausserhalb des Kegels -->
+          <g transform="translate(250,30)">
+            <circle cx="0" cy="0" r="7" fill="#2b303b"/>
+            <rect x="-10" y="9" width="20" height="24" rx="4" fill="#232833"/>
+            <path d="M-7 9 L-2 25 M7 9 L2 25" stroke="#4a505c" stroke-width="3" fill="none"/>
+            <rect x="-10" y="24" width="20" height="3.2" fill="#4a505c"/>
+          </g>
+          <text x="268" y="40" fill="#8a909c" font-family="Inter, Arial" font-size="11">kaum zu sehen</text>
+          <!-- Fragezeichen -->
+          <text x="268" y="56" fill="#8a909c" font-family="Montserrat, Arial" font-weight="800" font-size="13">?</text>
+        </svg>
+        <div class="cap"><b>Reflexweste</b>Reflektiert nur, wenn der Scheinwerfer sie direkt trifft. Steht das Kind seitlich am Rand, bleibt es dunkel.</div>
+      </div>
+
+      <!-- heyReflect -->
+      <div class="panel on">
+        <svg viewBox="0 6 400 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="heyReflect: leuchtet aktiv, auch seitlich">
+          <defs>
+            <linearGradient id="cone2" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#fff6c0" stop-opacity=".55"/>
+              <stop offset="1" stop-color="#fff6c0" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="glow">
+              <stop offset="0" stop-color="#E4FF1A" stop-opacity=".85"/>
+              <stop offset=".45" stop-color="#E4FF1A" stop-opacity=".35"/>
+              <stop offset="1" stop-color="#E4FF1A" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <rect width="400" height="150" fill="#0a0f1a"/>
+          <g fill="#3a4152"><circle cx="40" cy="14" r="1.2"/><circle cx="160" cy="10" r="1"/><circle cx="370" cy="8" r="1"/></g>
+          <rect x="0" y="62" width="400" height="74" fill="#1a1f2a"/>
+          <line x1="0" y1="99" x2="400" y2="99" stroke="#4a5060" stroke-width="2" stroke-dasharray="14 12"/>
+          <rect x="0" y="136" width="400" height="6" fill="#2a303c"/>
+          <rect x="0" y="56" width="400" height="6" fill="#2a303c"/>
+          <polygon points="88,108 330,84 330,134" fill="url(#cone2)"/>
+          <g>
+            <rect x="22" y="97" width="66" height="32" rx="8" fill="#c9ccd3"/>
+            <rect x="44" y="101" width="26" height="24" rx="4" fill="#5b6270"/>
+            <rect x="84" y="99" width="5" height="7" rx="1.5" fill="#fff8c8"/>
+            <rect x="84" y="120" width="5" height="7" rx="1.5" fill="#fff8c8"/>
+          </g>
+          <!-- Leuchthof rundum -->
+          <circle cx="250" cy="48" r="58" fill="url(#glow)"/>
+          <!-- Strahlen -->
+          <g stroke="#E4FF1A" stroke-width="2.4" stroke-linecap="round">
+            <line x1="222" y1="22" x2="214" y2="14"/><line x1="278" y1="22" x2="286" y2="14"/>
+            <line x1="216" y1="48" x2="204" y2="48"/><line x1="284" y1="48" x2="296" y2="48"/>
+            <line x1="222" y1="74" x2="214" y2="82"/><line x1="278" y1="74" x2="286" y2="82"/>
+          </g>
+          <g transform="translate(250,30)">
+            <circle cx="0" cy="0" r="7" fill="#3a3f2a"/>
+            <rect x="-10" y="9" width="20" height="24" rx="4" fill="#2a2f22"/>
+            <path d="M-7 9 L-2 25 M7 9 L2 25" stroke="#E4FF1A" stroke-width="3" fill="none"/>
+            <rect x="-10" y="24" width="20" height="3.2" fill="#E4FF1A"/>
+            <g fill="#fff"><circle cx="-6" cy="12.5" r="1.5"/><circle cx="-4.6" cy="17" r="1.5"/><circle cx="-3.2" cy="21.5" r="1.5"/>
+            <circle cx="6" cy="12.5" r="1.5"/><circle cx="4.6" cy="17" r="1.5"/><circle cx="3.2" cy="21.5" r="1.5"/>
+            <circle cx="-7" cy="25.6" r="1.5"/><circle cx="7" cy="25.6" r="1.5"/></g>
+          </g>
+          <text x="302" y="40" fill="#E4FF1A" font-family="Inter, Arial" font-weight="700" font-size="11">gut sichtbar</text>
+          <text x="302" y="54" fill="#E4FF1A" font-family="Inter, Arial" font-size="10">auch seitlich</text>
+        </svg>
+        <div class="cap"><b>heyReflect LED-Weste</b>Helle weiße LEDs in den Gurten leuchten aktiv, unabhängig vom Scheinwerfer.</div>
+      </div>
+    </div>
+
+    <div class="range">
+      <div class="row"><span>Reflexweste</span><div class="track"><div class="bar refl">ca. 140 m</div></div></div>
+      <div class="row"><span><b style="color:var(--neon)">heyReflect</b></span><div class="track"><div class="bar led">bis zu 400 m</div></div></div>
+      <div class="note">Sichtweite laut Herstellerangabe heyReflect <span class="ph">[Quelle/Messbedingungen bestätigen]</span></div>
+    </div>
+  </div>
+
+  <div class="inner">
+    <!-- So funktioniert's -->
+    <div class="sec">
+      <h2>So funktioniert's</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <svg viewBox="0 0 48 48"><rect x="14" y="6" width="20" height="34" rx="3" fill="none" stroke="#111" stroke-width="2.6"/><rect x="18" y="12" width="12" height="18" fill="#E4FF1A" stroke="#111" stroke-width="1.6"/><path d="M25 14 l-4 7 h4 l-2 7 l6-9 h-4 z" fill="#111"/><rect x="20" y="40" width="8" height="5" fill="#111"/></svg>
+          <b>Per USB laden</b><span>Akku mit USB-Kabel aufladen, ohne Knopfzellen.</span>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="15" fill="#E4FF1A" stroke="#111" stroke-width="2.6"/><line x1="24" y1="6" x2="24" y2="22" stroke="#111" stroke-width="3" stroke-linecap="round"/></svg>
+          <b>Einschalten</b><span>3 Lichtmodi zur Wahl.</span>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="none" stroke="#111" stroke-width="2.6"/><path d="M24 7 A17 17 0 1 1 9.3 32.5 L24 24 Z" fill="#E4FF1A" stroke="#111" stroke-width="1.6"/><line x1="24" y1="24" x2="24" y2="13" stroke="#111" stroke-width="2.6" stroke-linecap="round"/><line x1="24" y1="24" x2="31" y2="27" stroke="#111" stroke-width="2.6" stroke-linecap="round"/></svg>
+          <b>Bis zu 10 h Licht</b><span>Pro Akkuladung.</span>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <svg viewBox="0 0 48 48"><rect x="7" y="9" width="34" height="33" rx="4" fill="none" stroke="#111" stroke-width="2.6"/><line x1="7" y1="16" x2="41" y2="16" stroke="#111" stroke-width="2"/><circle cx="13" cy="12.5" r="1.4" fill="#111"/><circle cx="18" cy="12.5" r="1.4" fill="#111"/><circle cx="24" cy="29" r="9" fill="#E4FF1A" stroke="#111" stroke-width="2.2"/><path d="M17 30 q3.5 -4 7 0 t7 0" fill="none" stroke="#111" stroke-width="1.8"/></svg>
+          <b>Akku raus, waschen</b><span>Akku entnehmen, Weste in die Wäsche. <span class="ph">[Waschtemperatur]</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sortiment -->
+    <div class="sec">
+      <h2>Das Sortiment</h2>
+      <div class="tiles">
+        <div class="tile">
+          <div class="ph-box">[FOTO: Kinder-Weste freigestellt, LEDs an]</div>
+          <div class="body">
+            <h3>Kinder-LED-Weste</h3>
+            <div class="for">Gurtweste mit LEDs. Für Kita, Schulweg und Rad.</div>
+            <div class="sizes">S 86–104 · M 110–122<br>L 128–146</div>
+            <div class="price"><span class="v">44,90 €</span><span class="chips"><span class="chip" style="background:#E4FF1A"></span></span><span class="u">UVP</span></div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="ph-box">[FOTO: Kinder-Cape über dem Schulranzen, Rückansicht]</div>
+          <div class="body">
+            <h3>Kinder-LED-Cape</h3>
+            <div class="for">Wird über dem Schulranzen getragen, damit er die LEDs nicht verdeckt.</div>
+            <div class="sizes">Größen: <span class="ph">[Größen]</span></div>
+            <div class="price"><span class="v">44,90 €</span><span class="chips"><span class="chip" style="background:#E4FF1A"></span><span class="chip" style="background:#FF4FA3"></span></span><span class="u">UVP</span></div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="ph-box">[FOTO: Läuferin/Radfahrer mit Sports Vest bei Nacht]</div>
+          <div class="body">
+            <h3>LED Sports Vest</h3>
+            <div class="for">Für Läufer und Radfahrer im Training nach Feierabend.</div>
+            <div class="sizes">Größen: <span class="ph">[Größen]</span></div>
+            <div class="price"><span class="v">49,90 €</span><span class="chips"><span class="chip" style="background:#E4FF1A"></span><span class="chip" style="background:#111"></span></span><span class="u">UVP</span></div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="ph-box">[FOTO: Erwachsene/r mit Adult Vest, z. B. Pendler oder mit Hund]</div>
+          <div class="body">
+            <h3>LED Adult Vest</h3>
+            <div class="for">Für Pendler, Hundehalter, Reiter und alle, die im Dunkeln unterwegs sind.</div>
+            <div class="sizes">Größen: <span class="ph">[Größen]</span></div>
+            <div class="price"><span class="v">54,90 €</span><span class="chips"><span class="chip" style="background:#E4FF1A"></span></span><span class="u">UVP</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fakten -->
+    <div class="sec">
+      <h2>Auf einen Blick</h2>
+      <div class="facts">
+        <div class="fact">
+          <svg viewBox="0 0 36 36"><circle cx="11" cy="18" r="8" fill="#fff" stroke="#111" stroke-width="2"/><circle cx="25" cy="18" r="8" fill="#E2231A" stroke="#111" stroke-width="2"/></svg>
+          <div><b>Vorn weiß, hinten rot</b>Wie beim Fahrradlicht.</div>
+        </div>
+        <div class="fact">
+          <svg viewBox="0 0 36 36"><rect x="5" y="10" width="24" height="16" rx="3" fill="#E4FF1A" stroke="#111" stroke-width="2"/><rect x="29" y="14" width="3" height="8" fill="#111"/><path d="M18 12 l-4 7 h4 l-2 6 l6-8 h-4 z" fill="#111"/></svg>
+          <div><b>USB-Akku</b>Statt Knopfzelle. Wiederaufladbar.</div>
+        </div>
+        <div class="fact">
+          <svg viewBox="0 0 36 36"><rect x="4" y="12" width="28" height="12" rx="2" fill="#E4FF1A" stroke="#111" stroke-width="2"/><path d="M10 8 l-4 10 l4 10 M26 8 l4 10 l-4 10" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/></svg>
+          <div><b>Wächst mit</b>Per Klett verstellbar.</div>
+        </div>
+        <div class="fact">
+          <svg viewBox="0 0 36 36"><path d="M18 3 l12 5 v9 c0 8 -5.5 13 -12 16 c-6.5 -3 -12 -8 -12 -16 v-9 z" fill="#E4FF1A" stroke="#111" stroke-width="2"/><path d="M12 18 l4 4 l8 -8" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <div><b><span class="ph">[36 Monate]</span> Garantie</b><span class="ph">[bestätigen]</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span><b>heyReflect</b> · LED-Warnwesten · Großhansdorf bei Hamburg</span>
+    <span>heyreflect.com · Für Händler: Rückseite</span>
+  </div>
+</section>
+
+<!-- =====================================================================
+     SEITE 2 – FÜR HÄNDLER
+     ===================================================================== -->
+<section class="page" id="s2">
+  <div class="topbar">
+    <div class="logo-ph"><div class="wordmark"><span class="hey">hey</span>reflect</div><small>Platzhalter – Original-Logo einsetzen</small></div>
+    <div class="claim">Informationen für den <b>Fachhandel</b></div>
+  </div>
+
+  <div class="hero2">
+    <h1>Mehr Umsatz pro Regalmeter.</h1>
+    <p>Gleicher Platz im Regal, deutlich höherer Bon. heyReflect ergänzt Ihre Reflexwesten um die Stufe darüber, für Kunden, die mehr Sichtbarkeit wollen als einen Reflektor.</p>
+  </div>
+
+  <div class="inner">
+    <!-- Rechenbeispiel -->
+    <div class="sec">
+      <h2>Rechenbeispiel pro verkaufter Weste</h2>
+      <div class="calc">
+        <div class="col a">
+          <div class="lbl">Reflexweste</div>
+          <table>
+            <tr><td>UVP</td><td>ca. 5,00 €</td></tr>
+            <tr><td>Händler-EK</td><td><span class="ph">[EK]</span></td></tr>
+            <tr class="sum"><td>Ihre Marge</td><td><span class="ph">[X] €</span></td></tr>
+          </table>
+        </div>
+        <div class="vs">vs.</div>
+        <div class="col b">
+          <div class="lbl">heyReflect Kinder-LED-Weste</div>
+          <table>
+            <tr><td>UVP</td><td>44,90 €</td></tr>
+            <tr><td>Händler-EK</td><td><span class="ph" style="background:#1f3550;color:#a9d2ff">[EK]</span></td></tr>
+            <tr class="sum"><td>Ihre Marge</td><td><span class="ph" style="background:#1f3550;color:#a9d2ff">[Y] €</span></td></tr>
+          </table>
+        </div>
+      </div>
+      <p class="calc-note">Beispielrechnung: UVP inkl. MwSt., EK und Marge netto. Bei <span class="ph">[50]</span> verkauften Westen pro Saison bleiben Ihnen <span class="ph">[50 × Y] €</span> statt <span class="ph">[50 × X] €</span>.</p>
+    </div>
+
+    <!-- Sortiment / Beweis -->
+    <div class="sec two">
+      <div>
+        <h2>Ein Sortiment, mehr Bon</h2>
+        <p class="lead">Kinder <b>und</b> Erwachsene: Wer für das Kind kauft, nimmt oft für sich selbst eine mit. Eine Marke, ein Regal, mehrere Zielgruppen.</p>
+        <div class="groups">
+          <div class="grp kid">
+            <svg viewBox="0 0 36 36"><circle cx="18" cy="7" r="5" fill="#111"/><rect x="10" y="14" width="16" height="18" rx="3" fill="#111"/><path d="M13 14 L16.5 26 M23 14 L19.5 26" stroke="#fff" stroke-width="2.2"/><rect x="10" y="25" width="16" height="2.6" fill="#fff"/><g fill="#E4FF1A"><circle cx="14" cy="17" r="1"/><circle cx="22" cy="17" r="1"/><circle cx="15" cy="21" r="1"/><circle cx="21" cy="21" r="1"/></g></svg>
+            <b>Kinder</b>Kita, Schulweg
+          </div>
+          <div class="grp">
+            <svg viewBox="0 0 36 36"><circle cx="10" cy="26" r="6" fill="none" stroke="#111" stroke-width="2"/><circle cx="27" cy="26" r="6" fill="none" stroke="#111" stroke-width="2"/><path d="M10 26 l6 -10 h8 l3 10 M16 16 l-2 -4 h-3 M24 16 l-1 -4 h3" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/><circle cx="18" cy="26" r="1.5" fill="#E4FF1A" stroke="#111"/></svg>
+            <b>Pendler</b>Rad zur Arbeit
+          </div>
+          <div class="grp">
+            <svg viewBox="0 0 36 36"><circle cx="21" cy="6" r="3.5" fill="#111"/><path d="M19 11 l-5 9 l6 3 l-3 9 M19 11 l5 7 l5 -1 M14 20 l-6 2 M20 23 l7 6" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <b>Läufer</b>Training im Dunkeln
+          </div>
+          <div class="grp">
+            <svg viewBox="0 0 36 36"><circle cx="18" cy="26" r="7" fill="none" stroke="#111" stroke-width="2"/><circle cx="6" cy="26" r="1" fill="#111"/><circle cx="30" cy="26" r="1" fill="#111"/><path d="M9 26 l5 -12 h7 l6 12 M14 14 l-1 -3 h-3 M21 14 h4 v-3" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/></svg>
+            <b>Radfahrer</b>Sport &amp; Alltag
+          </div>
+          <div class="grp">
+            <svg viewBox="0 0 36 36"><path d="M8 28 v-9 c0 -3 2 -5 5 -5 h9 l3 -5 l2 0 l1 4 l3 2 l-2 3 h-3 v10 M12 28 v-7 M22 28 v-7" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 19 l-3 -4" stroke="#111" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <b>Hundehalter</b>Gassi am Abend
+          </div>
+          <div class="grp">
+            <svg viewBox="0 0 36 36"><path d="M10 31 v-10 c0 -5 3 -8 8 -9 l4 -6 l2 4 c3 2 5 5 5 9 l-3 2 l-4 -3 l-2 2 v11" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="21" cy="11" r="1.2" fill="#111"/></svg>
+            <b>Reiter</b>Ausritt im Winter
+          </div>
+        </div>
+      </div>
+      <div class="proof">
+        <div class="lbl">Erprobt im Fachhandel</div>
+        <q>Seit mehreren Jahren bei Globetrotter. Jede Saison nachbestellt.</q>
+        <p>heyReflect ist im Globetrotter-Gründerprogramm InnoLab entstanden und steht dort seit <span class="ph">[Jahr]</span> im Regal.</p>
+        <div class="src">Globetrotter-Nennung: Freigabe und Formulierung mit Globetrotter abstimmen.</div>
+      </div>
+    </div>
+
+    <!-- Konditionen -->
+    <div class="sec">
+      <h2>Konditionen</h2>
+      <table class="cond">
+        <tr><th>Staffel ab 100 Stück</th><td><span class="ph">[Preis/Rabatt]</span></td></tr>
+        <tr><th>Staffel ab 250 Stück</th><td><span class="ph">[Preis/Rabatt]</span></td></tr>
+        <tr><th>Lieferzeit</th><td><span class="ph">[X]</span> Werktage, alle Größen ab Lager</td></tr>
+        <tr><th>Muster</th><td>Auf Anfrage</td></tr>
+        <tr><th>POS-Aufsteller</th><td><span class="ph">[optional – Verfügbarkeit klären]</span></td></tr>
+      </table>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="sec">
+      <div class="contact">
+        <div class="ph-box">[FOTO: Gründerin]</div>
+        <div>
+          <h3>Muster anfordern oder kurz telefonieren.</h3>
+          <div class="who">
+            <div><b><span class="ph">[Vorname Nachname]</span></b>, Gründerin heyReflect</div>
+            <div>Tel. <span class="ph">[Telefon]</span> · <span class="ph">[E-Mail]</span></div>
+            <div><b style="color:var(--neon)">heyreflect.com</b> · Großhansdorf bei Hamburg</div>
+          </div>
+        </div>
+        <div class="qr">
+          <div class="ph-box">[QR-CODE: Video]</div>
+          Video: „Der Unterschied im Dunkeln“
+        </div>
+      </div>
+      <p class="legend">Entwurf v1 – hellblau markierte Felder sind Platzhalter und werden vor dem Druck ersetzt.</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span><b>heyReflect</b> · LED-Warnwesten · Großhansdorf bei Hamburg</span>
+    <span>Alle Preise UVP inkl. MwSt. · Stand <span class="ph" style="background:#1f3550;color:#a9d2ff">[Datum]</span></span>
+  </div>
+</section>
+
+</body>
+</html>
