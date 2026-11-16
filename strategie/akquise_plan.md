@@ -21,7 +21,7 @@ Stand: 2026-11-16 · Status: Entwurf
 | X Verloren | Grund notieren | du | – |
 
 ## Werkzeuge ohne CRM
-1. **Google Sheet als Mini-CRM** (Start sofort, kostenlos). Claude kann es direkt lesen und schreiben.
+1. **Google Sheet als Mini-CRM**: „heyReflect Akquise-Pipeline Händler“ im geteilten Laufwerk „Vertrieb“ (angelegt 16.11.2026, 20 Leads). Claude kann es direkt lesen und schreiben.
    Spalten: firma, segment, gruppe, geschaeftsfuehrung, anschrift, aufhaenger, stufe, brief_versendet_am, naechster_schritt, faellig_am, ergebnis, grund_verloren, notiz.
 2. **Google Kalender**: Nachfass-Termine automatisch aus `faellig_am`.
 3. **Wochenbericht** (geplante Aufgabe, z. B. Montag früh): Claude liest das Sheet und meldet: fällige Nachfassaktionen, offene Muster, Quote je Stufe.
@@ -47,4 +47,4 @@ Stand: 2026-11-16 · Status: Entwurf
 - [ ] Produktfotos → Infoblatt v2
 - [ ] Brief V1 freigeben, Variante für Mittelgroße
 - [ ] Online-Briefdienst wählen
-- [ ] Google Sheet anlegen
+- [x] Google Sheet anlegen
