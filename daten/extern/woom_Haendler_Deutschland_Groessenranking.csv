@@ -1,0 +1,168 @@
+Rang;Größen-Score;Händlername;Filialen (DE-Liste);Straße;PLZ;Ort;Bundesland;Services;Score-Herleitung
+1;62;Bikes 'n Boards;8;Griedeler Str. 62;35510;Butzbach;Hessen;Angebote, Werkstatt;Filialen x8:+48, Format:+0, Service:+14
+2;56;Bikes 'n Boards;8;Hans-Klemm-Str. 50;71034;Böblingen;Baden-Württemberg;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+3;56;Bikes 'n Boards;8;Tübinger Str. 53;70178;Stuttgart;Baden-Württemberg;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+4;56;Bikes 'n Boards;8;Taubentalstr. 6;73525;Schwäbisch Gmünd;Baden-Württemberg;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+5;56;Bikes 'n Boards;8;Weissacher Str. 60;71522;Backnang;Baden-Württemberg;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+6;56;Bikes 'n Boards;8;An der Mauer 1;73614;Schorndorf;Baden-Württemberg;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+7;56;Bikes 'n Boards;8;Hermannsteiner Str. 130;35586;Wetzlar;Hessen;Werkstatt;Filialen x8:+48, Format:+0, Service:+8
+8;48;Bikes 'n Boards;8;Stammheimerstr, Bau 10;70806;Kornwestheim;Baden-Württemberg;;Filialen x8:+48, Format:+0, Service:+0
+9;46;Zweirad-Center Durach;3;Achener Weg 11;88316;Isny im Allgäu;Baden-Württemberg;Angebote, Werkstatt, Parkplätze;Filialen x3:+18, Format:+10, Service:+18
+10;40;Radwelt Harsefeld;1;Rümelswiese 2;21698;Harsefeld;Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+16, Service:+18
+11;36;Munix Finest Bicycles Haidhausen;2;Wörthstr. 10;81667;München;Bayern;Angebote, Werkstatt;Filialen x2:+12, Format:+10, Service:+14
+12;36;Willner Fahrradzentrum;1;Friedrichshofener Str. 1e;85049;Ingolstadt;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+16, Service:+14
+13;36;Zweirad-Karberg;3;Lange Str. 46;17192;Waren (Müritz);Mecklenburg-Vorpommern;Angebote, Werkstatt, Parkplätze;Filialen x3:+18, Format:+0, Service:+18
+14;36;Zweirad-Profi Bernau;3;Berliner Str. 65;16321;Bernau bei Berlin;Brandenburg;Angebote, Werkstatt, Parkplätze;Filialen x3:+18, Format:+0, Service:+18
+15;34;BHR Radhaus in Ansbach;1;Nürnberger Str. 22;91522;Ansbach;Bayern;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+10, Service:+18
+16;34;Hild Radwelt;1;Engesserstr. 9;79108;Freiburg im Breisgau;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+16, Service:+12
+17;32;Der Fahrradladen Ha & Pe Bicycle GmbH;1;Metzer Str. 15;34281;Gudensberg;Hessen;Angebote, Werkstatt;Filialen x1:+6, Format:+12, Service:+14
+18;32;Fahrrad Gruss KG;1;Golzwarder Str. 33;26919;Brake (Unterweser);Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+8, Service:+18
+19;32;RADFALK Radsport Handels GmbH;1;Abtsäckerstr. 18;74248;Ellhofen;Baden-Württemberg;Angebote, Werkstatt;Filialen x1:+6, Format:+12, Service:+14
+20;30;2-Rad Dosch;3;Albert-Einstein-Str. 2a;74722;Buchen (Odenwald);Baden-Württemberg;Werkstatt, Parkplätze;Filialen x3:+18, Format:+0, Service:+12
+21;30;Fahrradhaus-Jähn;2;Berliner Str. 6;34537;Bad Wildungen;Hessen;Werkstatt;Filialen x2:+12, Format:+10, Service:+8
+22;30;Fahrradhaus-Jähn;2;Parkstr. 1;34516;Vöhl;Hessen;Werkstatt;Filialen x2:+12, Format:+10, Service:+8
+23;30;Fahrradwelt Huber;1;Eiselfinger Str. 5;83512;Wasserburg am Inn;Bayern;Werkstatt;Filialen x1:+6, Format:+16, Service:+8
+24;30;Heiss Das Radcenter;1;Rudolf-Diesel-Str. 18;87700;Memmingen;Bayern;Werkstatt;Filialen x1:+6, Format:+16, Service:+8
+25;30;Kuhn+Witte Zweiradcenter;1;Harburger Straße 25;21266;Jesteburg;Niedersachsen;Werkstatt;Filialen x1:+6, Format:+16, Service:+8
+26;30;Stephans Radwelt;1;Ziegelei 22;96487;Dörfles-Esbach;Bayern;Werkstatt;Filialen x1:+6, Format:+16, Service:+8
+27;30;Zentralrad Fürth;1;Moststr. 25;90762;Fürth;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+10, Service:+14
+28;28;e-motion e-Bike Welt Inntal;1;Winhöringer Str. 21;84513;Töging am Inn;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+10, Service:+12
+29;28;Fahrrad Center Singer;1;Schonacher Str. 14;78054;Villingen-Schwenningen;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+10, Service:+12
+30;28;Gehl Rad-Center;1;Lise-Meitner-Str. 6;86156;Augsburg;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+10, Service:+12
+31;26;Rad-Sport Schriewer;2;Osnabrücker Str. 17;49176;Hilter am Teutoburger Wald;Niedersachsen;Angebote, Werkstatt;Filialen x2:+12, Format:+0, Service:+14
+32;26;radschlag GmbH;1;Humboldtstr. 16;28203;Bremen;Bremen;Werkstatt;Filialen x1:+6, Format:+12, Service:+8
+33;26;Teo-die Fahrrad GmbH;1;Helmstedter Str. 20a;38102;Braunschweig;Niedersachsen;Werkstatt;Filialen x1:+6, Format:+12, Service:+8
+34;26;TransVelo Fahrräder;3;Strohberg 7-9;70180;Stuttgart;Baden-Württemberg;Werkstatt;Filialen x3:+18, Format:+0, Service:+8
+35;26;TransVelo Fahrräder - Reutlingen;3;Kaiserstr. 52;72764;Reutlingen;Baden-Württemberg;Werkstatt;Filialen x3:+18, Format:+0, Service:+8
+36;26;TransVelo Fahrräder - Tübingen;3;Poststr. 3;72072;Tübingen;Baden-Württemberg;Werkstatt;Filialen x3:+18, Format:+0, Service:+8
+37;24;2Rad Center Bad Waldseee;1;Claude-Dornier-Str. 1;88339;Bad Waldsee;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+38;24;2Rad Jessen;1;Schäfflerstr. 12;93309;Kelheim;Bayern;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+39;24;Bike Arena Oltmanns;1;Am Nüttermoorer Sieltief 7;26789;Leer (Ostfriesland);Niedersachsen;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+40;24;Bikehaisl;1;Galgenberg 2;84347;Pfarrkirchen;Bayern;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+41;24;BIKEREI.DE - Weißenburg;1;Richard-Stücklen-Straße 16;91781;Weißenburg in Bayern;Bayern;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+42;24;Brand;2;Schweinfurterstr. 4;97717;Euerdorf;Bayern;Werkstatt, Parkplätze;Filialen x2:+12, Format:+0, Service:+12
+43;24;Fahrrad am Bächle;1;Allmendstr. 11;77709;Oberwolfach;Baden-Württemberg;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+44;24;Fahrrad Böttgen;1;Große Spillingsgasse 8-14;60385;Frankfurt am Main;Hessen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+45;24;Fahrrad Küchler;1;Westendstr. 36-38;64546;Mörfelden-Walldorf;Hessen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+46;24;Fahrrad Ranzinger;1;Eichenallee 8;15711;Königs Wusterhausen;Brandenburg;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+47;24;Fahrradhaus Emmel;1;Hildesheimer Str. 21;31137;Hildesheim;Niedersachsen;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+48;24;Fahrradhaus Mangold;1;Vor dem Brückentor 11;37269;Eschwege;Hessen;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+49;24;Fahrwerk;1;Meppener Straße 104;49808;Lingen (Ems);Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+50;24;Peters Radl Stadl;1;Forchheimer Str. 2;91338;Igensdorf;Bayern;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+51;24;Radhaus Rostock;1;Friedhofsweg 3;18057;Rostock;Mecklenburg-Vorpommern;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+52;24;RADL-CENTER-STÖCKL;1;Bauhofstr. 6;84416;Taufkirchen (Vils);Bayern;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+53;24;Velo Voss;1;Lange-Geismar-Str. 72-73;37073;Göttingen;Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+54;24;Velo Welt;1;James-Loeb-Straße 11;82418;Murnau am Staffelsee;Bayern;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+55;24;zweiRAD Botenheim;1;Wiesenbachstr. 2;74336;Brackenheim;Baden-Württemberg;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+56;24;Zweirad Bross;1;Hauptstr. 32;77880;Sasbach;Baden-Württemberg;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+57;24;Zweirad Joos FN-Immenstaad E-Bike Center;1;Gehrenbergstr. 1b;88090;Immenstaad am Bodensee;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+10, Service:+8
+58;24;Zweirad Joos Radolfzell Hauptgeschäft;1;Schützenstr. 11+14;78315;Radolfzell am Bodensee;Baden-Württemberg;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+59;24;Zweirad Stückemann;1;Oldenburger Str. 76;26180;Rastede;Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+60;24;Zweirad Thedinga;1;Brückstr. 15a;26506;Norden;Niedersachsen;Angebote, Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+18
+61;20;altavelo Fahrradladen;2;Bergheimer Str. 101;69115;Heidelberg;Baden-Württemberg;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+62;20;altavelo Fahrradladen Bahnstadt;2;Zollhofgarten 8;69115;Heidelberg;Baden-Württemberg;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+63;20;Bike & Fun;1;Chauvignystr. 23;65366;Geisenheim;Hessen;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+64;20;Brand;2;Hannoversche Str. 34;29221;Celle;Niedersachsen;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+65;20;Di-Cycles;1;Kammerforststraße 22;76646;Bruchsal;Baden-Württemberg;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+66;20;Fahrrad Nandlinger;1;Mühlfelder Str. 5;82211;Herrsching am Ammersee;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+67;20;Fahrrad Riebold;1;Wolfratshauser Straße 193;81479;München;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+68;20;KarlvonDrais;1;Karl-von-Drais-Straße 6;60435;Frankfurt am Main;Hessen;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+69;20;Munix Finest Bicycles Schwabinger Tor;2;Leopoldstr. 154;80804;München;Bayern;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+70;20;Oswald Bikes & Service;2;Bahnhofstr. 10;82515;Wolfratshausen;Bayern;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+71;20;Oswald Bikes & Service;2;Adalbert-Stifter-Straße 21;82538;Geretsried;Bayern;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+72;20;Rad & Sportservice Wall;1;Hauptstr. 19;93173;Wenzenbach;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+73;20;Rad&Tour Cuxhaven;1;Schillerstr. 45;27472;Cuxhaven;Niedersachsen;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+74;20;Rad-Sport-Schmidt;2;Heiningerstr. 31;91550;Dinkelsbühl;Bayern;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+75;20;Radmarkt Gürtner;1;Moosstr. 32;84032;Altdorf bei Landshut;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+76;20;Renz Radsport;2;Titiseestr. 57;79822;Titisee-Neustadt;Baden-Württemberg;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+77;20;Renz Radsport;2;Zähringerstr. 12;78199;Bräunlingen;Baden-Württemberg;Werkstatt;Filialen x2:+12, Format:+0, Service:+8
+78;20;Switch Bike Bornemann;1;Katharinengasse 14;35390;Gießen;Hessen;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+79;20;Zweirad Eicker;1;Neureuter Str. 61;76185;Karlsruhe;Baden-Württemberg;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+80;20;Zweirad Wenzler;1;Herrenstr. 24;88353;Kißlegg;Baden-Württemberg;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+81;20;Zweirad Wermes;1;Schlossallee 3;49733;Haren (Ems);Niedersachsen;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+82;20;Zweirad Zitzmann;1;Mühlgasse 10a;91096;Möhrendorf;Bayern;Angebote, Werkstatt;Filialen x1:+6, Format:+0, Service:+14
+83;18;2-Cycle;3;Schwarzwaldstraße 5;79102;Freiburg im Breisgau;Baden-Württemberg;;Filialen x3:+18, Format:+0, Service:+0
+84;18;2-Cycle;3;Brandenbergstr. 2;79674;Todtnau;Baden-Württemberg;;Filialen x3:+18, Format:+0, Service:+0
+85;18;auftragsrad;1;Roelckestraße 92;13088;Berlin;Berlin;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+86;18;BIKEBOX;1;Stuttgarter Str. 72;78628;Rottweil;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+87;18;BIKEpoint Wiesner;1;Roßkaupe 10;01968;Senftenberg;Brandenburg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+88;18;Citycycles;1;Rote Str. 9;21335;Lüneburg;Niedersachsen;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+89;18;Fahrrad Wittl;1;Bahnhofstr. 51;92345;Dietfurt an der Altmühl;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+90;18;Feine Räder;1;Furtmayrstr. 10-12;93053;Regensburg;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+91;18;Harm Zweirad;1;Hafenstr. 19b;18546;Sassnitz;Mecklenburg-Vorpommern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+92;18;Karl Heilenmann;1;Otto-Hahn-Str. 20-22;73235;Weilheim an der Teck;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+93;18;Max Lange Zweiradfachgeschäft;1;Rahlstedter Str. 215;22143;Hamburg;Hamburg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+94;18;Rad+Sport Schneider;1;Wasserburger Str. 36;83278;Traunstein;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+95;18;radsport ersing;1;Rottumstraße 1;88487;Mietingen;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+96;18;Radsport Reyhle;1;Lichtensteinstr. 2;89160;Dornstadt;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+97;18;Reinwald Zweirad;1;Heiligenbergerstr. 111;88682;Salem;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+98;18;Rund ums Rad;1;Bremer Str. 302;27751;Delmenhorst;Niedersachsen;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+99;18;Rupp's Fahrradkiste;1;Mailheimer Str. 1;91438;Bad Windsheim;Bayern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+100;18;Stehl´s Bike Company;1;Ernst-Ihle-Str. 7;34613;Schwalmstadt;Hessen;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+101;18;Wittstock Zweiräder & Gartentechnik;1;Richtenberger Chaussee 42;18437;Stralsund;Mecklenburg-Vorpommern;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+102;18;Zweirad Hanselle;1;Nordhorner Str. 29;48465;Schüttorf;Niedersachsen;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+103;18;Zweirad Hübner;1;Am Telering 6;03051;Cottbus;Brandenburg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+104;18;Zweirad Joos Gottmadingen Lagerverkauf;1;Industriepark 301;78244;Gottmadingen;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+105;18;Zweirad Joos Konstanz Lagerverkauf;1;Am Dachsberg 12;78479;Reichenau;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+106;18;Zweirad Stegmaier;1;Lange Str. 39;74564;Crailsheim;Baden-Württemberg;Werkstatt, Parkplätze;Filialen x1:+6, Format:+0, Service:+12
+107;16;Radhaus Winterlingen;1;Lehrhalde 4;72479;Straßberg;Baden-Württemberg;;Filialen x1:+6, Format:+10, Service:+0
+108;16;Zweirad Joos Radolfzell E-Bike Center;1;Tegginger Str. 1;78315;Radolfzell am Bodensee;Baden-Württemberg;;Filialen x1:+6, Format:+10, Service:+0
+109;14;2RadStadl -Wurmansau;1;Alte Römerstr. 15;82442;Saulgrub;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+110;14;almtrieb;1;Frundsbergstr. 13;80634;München;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+111;14;Berg & Radsport Lerf e.K.;1;Am Lerchenfeld 6;86956;Schongau;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+112;14;Bike Villa;1;In der Schwarzerde 1;65549;Limburg an der Lahn;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+113;14;Bikeoholix;1;Kaufbeurer Str. 5;86830;Schwabmünchen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+114;14;Bikeshop Heitersheim;1;Bundesstraße 19;79423;Heitersheim;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+115;14;Bikesports Bernd Holzer;1;Ludwigstr. 109;87437;Kempten (Allgäu);Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+116;14;Biller Bikes;1;Pferdemarkt 18;94469;Deggendorf;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+117;14;Calenberger Radkultur und Radwasch;1;Calenberger Str. 25;30169;Hannover;Niedersachsen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+118;14;City Bike & Fun;1;Holzweg 15;61440;Oberursel (Taunus);Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+119;14;Conrad II Fahrräder & Extras;1;Schlüterstr. 16;10625;Berlin;Berlin;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+120;14;Cyclyng, Bike & Café;1;Silbermannstr. 2;28217;Bremen;Bremen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+121;14;Der Radladen Bamberg NRG;1;Steinweg 4a;96050;Bamberg;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+122;14;Fahrbar Bikes Kaufbeuren;1;Kaiser-Max-Str. 17;87600;Kaufbeuren;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+123;14;Fahrbar Bikes Landsberg;1;Sandauer Str. 244;86899;Landsberg am Lech;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+124;14;Fahrrad Freund;1;Niederhofheimer Str. 49;65719;Hofheim am Taunus;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+125;14;Fahrrad Schreiber;1;Alter Markt 2a;91056;Erlangen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+126;14;Fahrradhandlung Riebold;1;Frankfurter Str. 9;36251;Bad Hersfeld;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+127;14;Frame Factory - Der Fahrradladen;1;Langendellschlag 89;65199;Wiesbaden;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+128;14;Frank's Fahrradshop;1;Steinstr. 5;76477;Elchesheim-Illingen;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+129;14;Fxsports Fahrräder;1;Friedrich-Ebert-Str. 2;97204;Höchberg;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+130;14;FXSPORTS Posthalle;1;Bahnhofplatz 2;97070;Würzburg;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+131;14;Glaß, Feine Räder;1;Josef-Zech-Str. 2;89331;Burgau;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+132;14;Herr Velo;1;Rostocker Str. 17b;17033;Neubrandenburg;Mecklenburg-Vorpommern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+133;14;Keller Fahrräder Friedrichshafen;1;Spatenstraße 20;88046;Friedrichshafen;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+134;14;Mauers Baikschopp;1;Leipziger Str. 192;34123;Kassel;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+135;14;Mister Bike;1;Habermehlstr. 11;75172;Pforzheim;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+136;14;Naturzeit;1;Seestr. 11;71638;Ludwigsburg;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+137;14;Per Pedale;1;Adalbertstr. 5;60486;Frankfurt am Main;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+138;14;Pilos Fahrradshop;1;Berckhusenstr. 15;30625;Hannover;Niedersachsen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+139;14;radlMetzgerei;1;Kanzelmüllerstr. 94;84489;Burghausen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+140;14;Radsport Trübenbacher;1;Türkheimer Str. 1a;86825;Bad Wörishofen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+141;14;Radstation Sonthofen;1;Grüntenstraße 23;87527;Sonthofen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+142;14;Somo Hechingen;1;Martinstr. 20;72379;Hechingen;Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+143;14;Sport Matthaei;1;Schrannenstr. 17;97318;Kitzingen;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+144;14;s´Fahrradlädle;1;In den Rübteilen 8;89584;Ehingen (Donau);Baden-Württemberg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+145;14;Toni's Radleck;1;An der Goldwiese 4;86510;Ried;Bayern;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+146;14;Vélo 54;1;Veringstr. 54;21107;Hamburg;Hamburg;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+147;14;Wellmannbikes;1;Ulmenweg 17;64380;Roßdorf;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+148;14;Zweirad Stellwag;1;Neckarstr. 24;64711;Erbach;Hessen;Werkstatt;Filialen x1:+6, Format:+0, Service:+8
+149;12;Bike Station Weiden;1;Leihstadtmühle 4;92637;Weiden in der Oberpfalz;Bayern;Angebote;Filialen x1:+6, Format:+0, Service:+6
+150;12;Bike Stuff & Tours;2;Markwiesen 3;79793;Wutöschingen;Baden-Württemberg;;Filialen x2:+12, Format:+0, Service:+0
+151;12;Bike Stuff & Tours;2;Waldshuter Straße 25a;79798;Jestetten;Baden-Württemberg;;Filialen x2:+12, Format:+0, Service:+0
+152;12;Fahrwerk Timmer;1;Burgstraße 3;49716;Meppen;Niedersachsen;Angebote;Filialen x1:+6, Format:+0, Service:+6
+153;12;Olvelo;1;Postweg 67;26629;Großefehn;Niedersachsen;Angebote;Filialen x1:+6, Format:+0, Service:+6
+154;12;werkstatt17 bikeshop;1;Industriestrasse 17;83734;Hausham;Bayern;Angebote;Filialen x1:+6, Format:+0, Service:+6
+155;10;Bike2Future;1;Friedrich-Schaefer-Str. 2;64331;Weiterstadt;Hessen;Parkplätze;Filialen x1:+6, Format:+0, Service:+4
+156;10;Neudörffer Fahrräder und Service;1;Hauptstr. 108;88348;Bad Saulgau;Baden-Württemberg;Parkplätze;Filialen x1:+6, Format:+0, Service:+4
+157;6;CONRAD Fahrradladen;1;Köpenicker Str. 8b;10997;Berlin;Berlin;;Filialen x1:+6, Format:+0, Service:+0
+158;6;cult.bike;1;Dockenhudener Str. 1;22587;Hamburg;Hamburg;;Filialen x1:+6, Format:+0, Service:+0
+159;6;Fahrrad Potsdam;1;Babelsberger Str. 14;14473;Potsdam;Brandenburg;;Filialen x1:+6, Format:+0, Service:+0
+160;6;Flowinger Sportsequipment;1;Gerhart-Hauptmann-Str. 5;83483;Bischofswiesen;Bayern;;Filialen x1:+6, Format:+0, Service:+0
+161;6;Premium Bikeshop;1;Pastor-Niemöller-Platz 8;13156;Berlin;Berlin;;Filialen x1:+6, Format:+0, Service:+0
+162;6;Rad der Stadt Fahrräder;1;Prenzlauer Allee 50;10405;Berlin;Berlin;;Filialen x1:+6, Format:+0, Service:+0
+163;6;Rad Toni;1;Jann-Berghaus-Straße 62;26548;Norderney;Niedersachsen;;Filialen x1:+6, Format:+0, Service:+0
+164;6;Räderei Oberderdingen;1;Robert-Bosch-Ring 7;75038;Oberderdingen;Baden-Württemberg;;Filialen x1:+6, Format:+0, Service:+0
+165;6;Sportbörse Krapp;1;Ernst-Abbe-Str. 35;73431;Aalen;Baden-Württemberg;;Filialen x1:+6, Format:+0, Service:+0
+166;6;Super Bike8;1;Seestr. 38;71083;Herrenberg;Baden-Württemberg;;Filialen x1:+6, Format:+0, Service:+0
+167;6;Zweirad Joos Ravensburg;1;Eywiesenstrasse 5/2;88212;Ravensburg;Baden-Württemberg;;Filialen x1:+6, Format:+0, Service:+0

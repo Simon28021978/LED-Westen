@@ -1,0 +1,15 @@
+woom-Händler Deutschland – Größenranking
+
+Quelle | marktplatz.bike/Händler/woom (gibt 246 woom-Händler DE an)
+Erfasst in dieser Datei | 167 Händler (Baden-Württemberg bis Niedersachsen)
+Nicht erfasst | NRW, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen, Sonstige
+Grund | Der Seitenabruf wird technisch nach ~50.000 Zeichen (Ende Niedersachsen) abgeschnitten.
+
+GRÖSSEN-SCORE – Zusammensetzung (max ~100)
+1) Filialanzahl in der DE-Liste | je Filiale +6 (max +60). Ketten = größerer Betrieb.
+2) Rechtsform/Format aus Name | GmbH +12, KG/e.K./AG +8, Center/Welt/Haus/Zentrum +10, Radwelt/-zentrum +6
+3) Service-Vollständigkeit | Werkstatt +8, Angebote +6, Parkplätze +4
+
+WICHTIG – Belastbarkeit
+Dies ist ein PROXY-Score aus öffentlich sichtbaren Signalen, KEINE echte Umsatz-/Mitarbeiterzahl.
+Für harte Größe empfohlen | Handelsregister/Unternehmensregister (Bilanz, Mitarbeiter), Google-Bewertungsanzahl, Northdata/Creditreform
