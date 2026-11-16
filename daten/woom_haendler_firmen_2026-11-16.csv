@@ -1,0 +1,145 @@
+firma;standorte_in_liste;filialen_laut_liste;bundeslaender;hauptort;groessenklasse;bereits_in_unseren_listen;kandidat_mittelgross;hinweis
+Zweirad Joos;6;1;Baden-Württemberg;Radolfzell am Bodensee;mittelgroß;nein;ja;Liste zählt je Zeile 1 Filiale(n), aber 6 Standorte unter Namensvarianten – Filialzahl der Quelle zu niedrig, Größen-Score unterschätzt. Namensvarianten: Zweirad Joos FN-Immenstaad E-Bike Center | Zweirad Joos Gottmadingen Lagerverkauf | Zweirad Joos Konstanz Lagerverkauf | Zweirad Joos Radolfzell E-Bike Center | Zweirad Joos Radolfzell Hauptgeschäft | Zweirad Joos Ravensburg.
+Zweirad-Center Durach;1;3;Baden-Württemberg;Isny im Allgäu;mittelgroß;nein;ja;2 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen.
+Zweirad-Karberg;1;3;Mecklenburg-Vorpommern;Waren (Müritz);mittelgroß;nein;ja;2 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen. Region Nord.
+Zweirad-Profi Bernau;1;3;Brandenburg;Bernau bei Berlin;mittelgroß;nein;ja;2 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen.
+2-Rad Dosch;1;3;Baden-Württemberg;Buchen (Odenwald);mittelgroß;nein;ja;2 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen.
+TransVelo Fahrräder;3;3;Baden-Württemberg;Stuttgart;mittelgroß;nein;ja;Namensvarianten: TransVelo Fahrräder | TransVelo Fahrräder - Reutlingen | TransVelo Fahrräder - Tübingen. Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+2-Cycle;2;3;Baden-Württemberg;Freiburg im Breisgau;mittelgroß;nein;ja;1 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen. Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg. Keine Services angegeben.
+Bikes 'n Boards;8;8;Baden-Württemberg, Hessen;Butzbach;mittelgroß;ja: leads_fahrrad_mittelgross_2026-11-16 (Bikesnboards GmbH);bereits gelistet;"In leads_fahrrad_mittelgross als Bikesnboards GmbH mit 9 Filialen Region Stuttgart (ohne Hessen); Butzbach und Wetzlar (Hessen) dort nicht genannt – ggf. andere Firma gleichen Namens, prüfen. Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg."
+Munix Finest Bicycles;2;2;Bayern;München;klein;nein;nein;Namensvarianten: Munix Finest Bicycles Haidhausen | Munix Finest Bicycles Schwabinger Tor.
+Fahrradhaus-Jähn;2;2;Hessen;Bad Wildungen;klein;nein;nein;Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+Rad-Sport Schriewer;1;2;Niedersachsen;Hilter am Teutoburger Wald;klein;nein;nein;1 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen. Region Nord.
+Brand (Euerdorf);1;2;Bayern;Euerdorf;klein;nein;nein;Liste nennt 2 Filialen „Brand“ (Euerdorf BY + Celle NI, ca. 350 km) – vermutlich nur Namensgleichheit, Filialzahl daher fraglich.
+altavelo Fahrradladen;2;2;Baden-Württemberg;Heidelberg;klein;nein;nein;Namensvarianten: altavelo Fahrradladen | altavelo Fahrradladen Bahnstadt.
+Brand (Celle);1;2;Niedersachsen;Celle;klein;nein;nein;Liste nennt 2 Filialen „Brand“ (Euerdorf BY + Celle NI, ca. 350 km) – vermutlich nur Namensgleichheit, Filialzahl daher fraglich. Region Nord.
+Oswald Bikes & Service;2;2;Bayern;Wolfratshausen;klein;nein;nein;Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+Rad-Sport-Schmidt;1;2;Bayern;Dinkelsbühl;klein;nein;nein;1 Filiale(n) laut Liste nicht als Zeile enthalten (nicht erfasstes Bundesland oder Abruf unvollständig) – Standorte offen.
+Renz Radsport;2;2;Baden-Württemberg;Titisee-Neustadt;klein;nein;nein;Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+Fahrbar Bikes;2;1;Bayern;Kaufbeuren;klein;nein;nein;Liste zählt je Zeile 1 Filiale(n), aber 2 Standorte unter Namensvarianten – Filialzahl der Quelle zu niedrig, Größen-Score unterschätzt. Namensvarianten: Fahrbar Bikes Kaufbeuren | Fahrbar Bikes Landsberg. Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+FXsports;2;1;Bayern;Höchberg;klein;nein;nein;Liste zählt je Zeile 1 Filiale(n), aber 2 Standorte unter Namensvarianten – Filialzahl der Quelle zu niedrig, Größen-Score unterschätzt. Namensvarianten: FXSPORTS Posthalle | Fxsports Fahrräder. Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg.
+Bike Stuff & Tours;2;2;Baden-Württemberg;Wutöschingen;klein;nein;nein;Hauptort = Ort der bestbewerteten Zeile, kein Sitz-Beleg. Keine Services angegeben.
+Radwelt Harsefeld;1;1;Niedersachsen;Harsefeld;klein;nein;nein;Region Nord.
+Willner Fahrradzentrum;1;1;Bayern;Ingolstadt;klein;nein;nein;
+BHR Radhaus in Ansbach;1;1;Bayern;Ansbach;klein;nein;nein;
+Hild Radwelt;1;1;Baden-Württemberg;Freiburg im Breisgau;klein;nein;nein;
+Der Fahrradladen Ha & Pe Bicycle GmbH;1;1;Hessen;Gudensberg;klein;nein;nein;
+Fahrrad Gruss KG;1;1;Niedersachsen;Brake (Unterweser);klein;nein;nein;Region Nord.
+RADFALK Radsport Handels GmbH;1;1;Baden-Württemberg;Ellhofen;klein;nein;nein;
+Fahrradwelt Huber;1;1;Bayern;Wasserburg am Inn;klein;nein;nein;
+Heiss Das Radcenter;1;1;Bayern;Memmingen;klein;nein;nein;
+Kuhn+Witte Zweiradcenter;1;1;Niedersachsen;Jesteburg;klein;nein;nein;Region Nord.
+Stephans Radwelt;1;1;Bayern;Dörfles-Esbach;klein;nein;nein;
+Zentralrad Fürth;1;1;Bayern;Fürth;klein;nein;nein;
+e-motion e-Bike Welt Inntal;1;1;Bayern;Töging am Inn;klein;nein;nein;
+Fahrrad Center Singer;1;1;Baden-Württemberg;Villingen-Schwenningen;klein;nein;nein;
+Gehl Rad-Center;1;1;Bayern;Augsburg;klein;nein;nein;
+radschlag GmbH;1;1;Bremen;Bremen;klein;ja: leads_inhaber_nord_bewertet_2026-11-16 (Radschlag Fahrradhandel GmbH, A, top10);nein;Region Nord.
+Teo-die Fahrrad GmbH;1;1;Niedersachsen;Braunschweig;klein;nein;nein;Region Nord.
+2Rad Center Bad Waldseee;1;1;Baden-Württemberg;Bad Waldsee;klein;nein;nein;Tippfehler im Namen der Quelle (Waldseee).
+2Rad Jessen;1;1;Bayern;Kelheim;klein;nein;nein;
+Bike Arena Oltmanns;1;1;Niedersachsen;Leer (Ostfriesland);klein;nein;nein;Region Nord.
+Bikehaisl;1;1;Bayern;Pfarrkirchen;klein;nein;nein;
+BIKEREI.DE - Weißenburg;1;1;Bayern;Weißenburg in Bayern;klein;nein;nein;
+Fahrrad am Bächle;1;1;Baden-Württemberg;Oberwolfach;klein;nein;nein;
+Fahrrad Böttgen;1;1;Hessen;Frankfurt am Main;klein;nein;nein;
+Fahrrad Küchler;1;1;Hessen;Mörfelden-Walldorf;klein;nein;nein;
+Fahrrad Ranzinger;1;1;Brandenburg;Königs Wusterhausen;klein;nein;nein;
+Fahrradhaus Emmel;1;1;Niedersachsen;Hildesheim;klein;nein;nein;Region Nord.
+Fahrradhaus Mangold;1;1;Hessen;Eschwege;klein;nein;nein;
+Fahrwerk;1;1;Niedersachsen;Lingen (Ems);klein;nein;nein;Möglicherweise verbunden mit „Fahrwerk Timmer“ (Meppen, beide Emsland) – nicht zusammengeführt, prüfen. Region Nord.
+Peters Radl Stadl;1;1;Bayern;Igensdorf;klein;nein;nein;
+Radhaus Rostock;1;1;Mecklenburg-Vorpommern;Rostock;klein;nein;nein;Region Nord.
+RADL-CENTER-STÖCKL;1;1;Bayern;Taufkirchen (Vils);klein;nein;nein;
+Velo Voss;1;1;Niedersachsen;Göttingen;klein;nein;nein;Region Nord.
+Velo Welt;1;1;Bayern;Murnau am Staffelsee;klein;nein;nein;
+zweiRAD Botenheim;1;1;Baden-Württemberg;Brackenheim;klein;nein;nein;
+Zweirad Bross;1;1;Baden-Württemberg;Sasbach;klein;nein;nein;
+Zweirad Stückemann;1;1;Niedersachsen;Rastede;klein;nein;nein;Region Nord.
+Zweirad Thedinga;1;1;Niedersachsen;Norden;klein;nein;nein;Region Nord.
+Bike & Fun;1;1;Hessen;Geisenheim;klein;nein;nein;
+Di-Cycles;1;1;Baden-Württemberg;Bruchsal;klein;nein;nein;
+Fahrrad Nandlinger;1;1;Bayern;Herrsching am Ammersee;klein;nein;nein;
+Fahrrad Riebold;1;1;Bayern;München;klein;nein;nein;Namensgleich mit „Fahrradhandlung Riebold“ (Bad Hersfeld) – vermutlich getrennt, nicht zusammengeführt.
+KarlvonDrais;1;1;Hessen;Frankfurt am Main;klein;nein;nein;
+Rad & Sportservice Wall;1;1;Bayern;Wenzenbach;klein;nein;nein;
+Rad&Tour Cuxhaven;1;1;Niedersachsen;Cuxhaven;klein;nein;nein;Region Nord.
+Radmarkt Gürtner;1;1;Bayern;Altdorf bei Landshut;klein;nein;nein;
+Switch Bike Bornemann;1;1;Hessen;Gießen;klein;nein;nein;
+Zweirad Eicker;1;1;Baden-Württemberg;Karlsruhe;klein;nein;nein;
+Zweirad Wenzler;1;1;Baden-Württemberg;Kißlegg;klein;nein;nein;
+Zweirad Wermes;1;1;Niedersachsen;Haren (Ems);klein;nein;nein;Region Nord.
+Zweirad Zitzmann;1;1;Bayern;Möhrendorf;klein;nein;nein;
+auftragsrad;1;1;Berlin;Berlin;klein;nein;nein;
+BIKEBOX;1;1;Baden-Württemberg;Rottweil;klein;nein;nein;
+BIKEpoint Wiesner;1;1;Brandenburg;Senftenberg;klein;nein;nein;
+Citycycles;1;1;Niedersachsen;Lüneburg;klein;nein;nein;Region Nord.
+Fahrrad Wittl;1;1;Bayern;Dietfurt an der Altmühl;klein;nein;nein;
+Feine Räder;1;1;Bayern;Regensburg;klein;nein;nein;
+Harm Zweirad;1;1;Mecklenburg-Vorpommern;Sassnitz;klein;nein;nein;Region Nord.
+Karl Heilenmann;1;1;Baden-Württemberg;Weilheim an der Teck;klein;nein;nein;
+Max Lange Zweiradfachgeschäft;1;1;Hamburg;Hamburg;klein;nein;nein;Region Nord.
+Rad+Sport Schneider;1;1;Bayern;Traunstein;klein;nein;nein;
+radsport ersing;1;1;Baden-Württemberg;Mietingen;klein;nein;nein;
+Radsport Reyhle;1;1;Baden-Württemberg;Dornstadt;klein;nein;nein;
+Reinwald Zweirad;1;1;Baden-Württemberg;Salem;klein;nein;nein;
+Rund ums Rad;1;1;Niedersachsen;Delmenhorst;klein;nein;nein;Region Nord.
+Rupp's Fahrradkiste;1;1;Bayern;Bad Windsheim;klein;nein;nein;
+Stehl´s Bike Company;1;1;Hessen;Schwalmstadt;klein;nein;nein;
+Wittstock Zweiräder & Gartentechnik;1;1;Mecklenburg-Vorpommern;Stralsund;klein;nein;nein;Region Nord.
+Zweirad Hanselle;1;1;Niedersachsen;Schüttorf;klein;nein;nein;Region Nord.
+Zweirad Hübner;1;1;Brandenburg;Cottbus;klein;nein;nein;
+Zweirad Stegmaier;1;1;Baden-Württemberg;Crailsheim;klein;nein;nein;
+Radhaus Winterlingen;1;1;Baden-Württemberg;Straßberg;klein;nein;nein;Keine Services angegeben.
+2RadStadl -Wurmansau;1;1;Bayern;Saulgrub;klein;nein;nein;
+almtrieb;1;1;Bayern;München;klein;nein;nein;
+Berg & Radsport Lerf e.K.;1;1;Bayern;Schongau;klein;nein;nein;
+Bike Villa;1;1;Hessen;Limburg an der Lahn;klein;nein;nein;
+Bikeoholix;1;1;Bayern;Schwabmünchen;klein;nein;nein;
+Bikeshop Heitersheim;1;1;Baden-Württemberg;Heitersheim;klein;nein;nein;
+Bikesports Bernd Holzer;1;1;Bayern;Kempten (Allgäu);klein;nein;nein;
+Biller Bikes;1;1;Bayern;Deggendorf;klein;nein;nein;
+Calenberger Radkultur und Radwasch;1;1;Niedersachsen;Hannover;klein;nein;nein;Region Nord.
+City Bike & Fun;1;1;Hessen;Oberursel (Taunus);klein;nein;nein;
+Conrad II Fahrräder & Extras;1;1;Berlin;Berlin;klein;nein;nein;Möglicherweise identisch mit „CONRAD Fahrradladen“ (beide Berlin) – nicht zusammengeführt, prüfen.
+Cyclyng, Bike & Café;1;1;Bremen;Bremen;klein;nein;nein;Region Nord.
+Der Radladen Bamberg NRG;1;1;Bayern;Bamberg;klein;nein;nein;
+Fahrrad Freund;1;1;Hessen;Hofheim am Taunus;klein;nein;nein;
+Fahrrad Schreiber;1;1;Bayern;Erlangen;klein;nein;nein;
+Fahrradhandlung Riebold;1;1;Hessen;Bad Hersfeld;klein;nein;nein;Namensgleich mit „Fahrrad Riebold“ (München) – vermutlich getrennt, nicht zusammengeführt.
+Frame Factory - Der Fahrradladen;1;1;Hessen;Wiesbaden;klein;nein;nein;
+Frank's Fahrradshop;1;1;Baden-Württemberg;Elchesheim-Illingen;klein;nein;nein;
+Glaß, Feine Räder;1;1;Bayern;Burgau;klein;nein;nein;
+Herr Velo;1;1;Mecklenburg-Vorpommern;Neubrandenburg;klein;nein;nein;Region Nord.
+Keller Fahrräder Friedrichshafen;1;1;Baden-Württemberg;Friedrichshafen;klein;nein;nein;
+Mauers Baikschopp;1;1;Hessen;Kassel;klein;nein;nein;
+Mister Bike;1;1;Baden-Württemberg;Pforzheim;klein;nein;nein;
+Naturzeit;1;1;Baden-Württemberg;Ludwigsburg;klein;nein;nein;
+Per Pedale;1;1;Hessen;Frankfurt am Main;klein;nein;nein;
+Pilos Fahrradshop;1;1;Niedersachsen;Hannover;klein;nein;nein;Region Nord.
+radlMetzgerei;1;1;Bayern;Burghausen;klein;nein;nein;
+Radsport Trübenbacher;1;1;Bayern;Bad Wörishofen;klein;nein;nein;
+Radstation Sonthofen;1;1;Bayern;Sonthofen;klein;nein;nein;
+Somo Hechingen;1;1;Baden-Württemberg;Hechingen;klein;nein;nein;
+Sport Matthaei;1;1;Bayern;Kitzingen;klein;nein;nein;
+s´Fahrradlädle;1;1;Baden-Württemberg;Ehingen (Donau);klein;nein;nein;
+Toni's Radleck;1;1;Bayern;Ried;klein;nein;nein;
+Vélo 54;1;1;Hamburg;Hamburg;klein;nein;nein;Region Nord.
+Wellmannbikes;1;1;Hessen;Roßdorf;klein;nein;nein;
+Zweirad Stellwag;1;1;Hessen;Erbach;klein;nein;nein;
+Bike Station Weiden;1;1;Bayern;Weiden in der Oberpfalz;klein;nein;nein;
+Fahrwerk Timmer;1;1;Niedersachsen;Meppen;klein;nein;nein;Möglicherweise verbunden mit „Fahrwerk“ (Lingen) – nicht zusammengeführt, prüfen. Region Nord.
+Olvelo;1;1;Niedersachsen;Großefehn;klein;nein;nein;Region Nord.
+werkstatt17 bikeshop;1;1;Bayern;Hausham;klein;nein;nein;
+Bike2Future;1;1;Hessen;Weiterstadt;klein;nein;nein;
+Neudörffer Fahrräder und Service;1;1;Baden-Württemberg;Bad Saulgau;klein;nein;nein;
+CONRAD Fahrradladen;1;1;Berlin;Berlin;klein;nein;nein;Möglicherweise identisch mit „Conrad II Fahrräder & Extras“ (beide Berlin) – nicht zusammengeführt, prüfen. Keine Services angegeben.
+cult.bike;1;1;Hamburg;Hamburg;klein;nein;nein;Region Nord. Keine Services angegeben.
+Fahrrad Potsdam;1;1;Brandenburg;Potsdam;klein;nein;nein;Keine Services angegeben.
+Flowinger Sportsequipment;1;1;Bayern;Bischofswiesen;klein;nein;nein;Keine Services angegeben.
+Premium Bikeshop;1;1;Berlin;Berlin;klein;nein;nein;Keine Services angegeben.
+Rad der Stadt Fahrräder;1;1;Berlin;Berlin;klein;nein;nein;Keine Services angegeben.
+Rad Toni;1;1;Niedersachsen;Norderney;klein;nein;nein;Region Nord. Keine Services angegeben.
+Räderei Oberderdingen;1;1;Baden-Württemberg;Oberderdingen;klein;nein;nein;Keine Services angegeben.
+Sportbörse Krapp;1;1;Baden-Württemberg;Aalen;klein;nein;nein;Keine Services angegeben.
+Super Bike8;1;1;Baden-Württemberg;Herrenberg;klein;nein;nein;Keine Services angegeben.
