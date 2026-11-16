@@ -22,7 +22,9 @@ Stand: 2026-11-16 · Status: Entwurf
 
 ## Werkzeuge ohne CRM
 1. **Google Sheet als Mini-CRM**: „heyReflect Akquise-Pipeline Händler“ im geteilten Laufwerk „Vertrieb“ (angelegt 16.11.2026, 20 Leads). Claude kann es direkt lesen und schreiben.
-   Spalten: firma, segment, gruppe, geschaeftsfuehrung, anschrift, aufhaenger, stufe, brief_versendet_am, naechster_schritt, faellig_am, ergebnis, grund_verloren, notiz.
+   Reiter: „Scorecard“ (Kennzahlen per Formel), „Inhaber“ (10), „Mittelgroß“ (10).
+   Gepflegt werden nur die grünen Spalten: stufe, brief_am, naechster_schritt, faellig_am, dazu auftragswert_eur und notiz.
+   Scorecard: Leads je Stufe, Quoten (Brief→Muster, Muster→Bestellung, Brief→Bestellung, Nachorder), Auftragswert, fällige Aufgaben, Briefe der letzten 7 Tage.
 2. **Google Kalender**: Nachfass-Termine automatisch aus `faellig_am`.
 3. **Wochenbericht** (geplante Aufgabe, z. B. Montag früh): Claude liest das Sheet und meldet: fällige Nachfassaktionen, offene Muster, Quote je Stufe.
 4. **Briefe**: Claude erzeugt je Händler ein fertiges PDF aus Vorlage + Adressliste. Versand über einen Online-Briefdienst (Upload PDF → Druck, Kuvertierung, Porto). Anbieter auswählen und testen.
