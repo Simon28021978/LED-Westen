@@ -45,7 +45,7 @@ Stand: 2026-11-16 · Status: Entwurf
 - Anruf B2B: nur bei mutmaßlichem Interesse; Bezug auf den Brief hilft, bleibt aber Grauzone.
 
 ## Offene Punkte vor Start
-- [ ] Konditionen (EK, MOQ, Staffel 2.500 / 5.000 €, Lieferzeit, Nachorder)
+- [ ] Konditionen (EK, Lieferzeit, Nachorder). Beschlossen: MBW 2.500 € bis 5 Filialen, 5.000 € ab 6 Filialen
 - [ ] Produktfotos → Infoblatt v2
 - [ ] Brief V1 freigeben, Variante für Mittelgroße
 - [ ] Online-Briefdienst wählen

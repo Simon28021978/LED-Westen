@@ -15,7 +15,8 @@ Aufbau eines Webshops für LED-Westen mit Fokus auf B2B-Kunden, dazu saubere Lea
 2. Outdoor- und Laufshops, Vereine, Lauftreffs
 3. Lieferdienste, Kuriere, Hundeschulen, Event-Veranstalter, Security
 4. Werbemittelhändler (nachrangig)
-Region zuerst: Norddeutschland (SH, HH, HB, NI, MV), danach bundesweit.
+Region zuerst: Norddeutschland (SH, HH, HB, NI, MV), danach bundesweit. Nord wird im Scoring doppelt gewichtet (näher, persönlich erreichbar).
+Start: mittelgroße Fahrradhändler, Scoring und Forecast siehe `strategie/scoring_mittelgross.md`.
 
 Hinweis: Der ICP-Entwurf (`strategie/icp.md`) setzt den Schwerpunkt auf Kinderwesten und Händler mit Kinder- bzw. Familiensortiment. Die Reihenfolge oben ist damit noch nicht abgeglichen – offen.
 
