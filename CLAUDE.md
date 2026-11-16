@@ -7,7 +7,7 @@ Aufbau eines Webshops für LED-Westen mit Fokus auf B2B-Kunden, dazu saubere Lea
 - Marke: heyReflect (heyReflect UG, Großhansdorf). Details: `vertrieb/produktportfolio_recherche.md`
 - Kernsortiment (UVP, Stand Suchindex 12.11.2026): Kinderweste 44,90 €, Kindercape 44,90 €, Sports Vest 49,90 €, Adult Vest 54,90 €; dazu LED-Gurt, Hundeweste, Kinderwagengurt, Zubehör
 - Händler-Einkaufspreis, Mindestmengen, Stückzahlen: unbekannt – vor Akquise klären
-- Rolle im Vertrieb (Hersteller selbst oder Vertriebspartner): unbekannt
+- Rolle: Wir sind der Hersteller (heyReflect). Ziel im Vertrieb: möglichst schnell neue Handelspartner gewinnen.
 - Normhinweis: Nicht als zertifizierte Warnkleidung (EN ISO 20471 / EN 17353) darstellen, solange kein Nachweis vorliegt.
 
 ## Zielgruppen (Priorität)
