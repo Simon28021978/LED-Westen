@@ -8,6 +8,8 @@ Platzhalter `[ ]` vor dem Versand füllen.
 - Standorte Gägelow, Schwerin-Lankow, Wittenburg, Specialized Store Schwerin: https://fahrradrachow.de/pages/unsere-filialen
 - Google-Bewertung 4,9 von 5 (340 Bewertungen), Marken Puky und woom, Kategorie Sicherheitsartikel: https://fahrradrachow.de/
 - wowow-Reflexweste/-jacke im Shop: `daten/top10_sortiment_westen_2026-11-16.csv`
+- Direkte E-Mail Phillip Rachow: p.rachow@fahrradrachow.de, veröffentlicht als Messe-Aussteller: https://oz-epower.de/fahrrad-rachow/ (dort „5 Ladengeschäfte“, Website nennt 4 + Specialized Store). Nutzung erst nach Antwort auf den Brief (UWG §7 – öffentlich ≠ Einwilligung).
+- Anknüpfung: Rachow stellt auf der OZ-ePower in Rostock aus (E-Mobilitätsmesse). Nächster Termin unbekannt.
 
 ---
 
