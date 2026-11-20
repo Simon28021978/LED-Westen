@@ -18,6 +18,9 @@ Finde Unternehmen und Organisationen, für die LED-Westen relevant sind, und lie
 
 Wenn der Auftrag kein Segment und keine Region nennt, frag nach oder triff eine klare Annahme und schreib sie oben in dein Ergebnis.
 
+## ICP (verbindlich)
+Lies vor jeder Recherche `vertrieb/icp.md`. Nimm nur Händler auf, die die Ausschlusskriterien nicht erfüllen und mindestens 2 belegte Potenzial-Signale haben (Filialen/große Fläche, Onlineshop, breites passendes Sortiment, Sicherheitszubehör, Reichweite). Kleine Einzelläden mit Nischensortiment (z. B. kleiner Spielzeugladen) und Läden ohne eigene Website fliegen raus. Liefere je Lead die gefundenen Potenzial-Signale mit Quelle im Feld `potenzial`.
+
 ## Vorgehen
 1. Suche gezielt nach Segment und Region, z. B. „Fahrradhändler Hamburg“ oder „Nachtlauf 2026 Veranstalter Niedersachsen“.
 2. Prüfe jeden Treffer auf der Website des Unternehmens selbst (Impressum, Über uns, Kontakt). Ein Verzeichniseintrag allein reicht nicht, wenn es eine eigene Website gibt.
