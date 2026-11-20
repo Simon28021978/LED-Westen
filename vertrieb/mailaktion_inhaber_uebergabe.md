@@ -86,3 +86,10 @@ Quellen: `recherche/kontaktadressen_inhaber_2026-11-20.csv` (Rico), `daten/maila
 - **15 Entwürfe angelegt** im heyreflect-Postfach, ohne Anhang: die 13 mit Freigabe „ja“ sowie Nr. 7 Fahrradhaus Jordan und Nr. 16 Tom Klee (Simon-Entscheidung).
 - Nicht angelegt: Nr. 10 (Unterwegs bereits angeschrieben), Nr. 14, 18, 20, 21 (Filialisten/Verbund → Ansprache Mittelgroße), Nr. 11 (keine Mail).
 - Offen: Broschüre anhängen und versenden (Simon), alte 10 Entwürfe im googlemail-Konto löschen, danach Pipeline-Update (Schritt 5).
+
+## Versand 20.11.2026
+
+- 14 Mails von Simon versendet (mit Broschüre, Links von Hand korrigiert). Wichlein nicht versendet: kein ICP (siehe `vertrieb/icp.md`).
+- Pipeline-Sheet aktualisiert: Inhaber 8 und Outdoor 6 auf „2 Brief versendet“ (20.11.), Unterwegs Outdoor Shop (19.11., Mails an Zentrale), Nachfassen 26./27.11.; Zurückgestellte mit Grund in `naechster_schritt`.
+- Kalender: Nachfassen 27.11. 10:30 (14 Händler), 26.11. 10:45 (Unterwegs).
+- Hinweis: Der Gmail-Connector schreibt Links in Entwürfen auf google.com/url um – Links vor Versand immer von Hand prüfen.
