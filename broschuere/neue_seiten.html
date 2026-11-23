@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--black:#0A0B0F;--yellow:#FFDC4A;--navy:#202C47;--bg:#FAFAFA;--grey:#D9D9D9;--muted:#6b7280}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Work Sans',sans-serif;color:var(--navy)}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--bg)}
+.page:last-child{page-break-after:auto}
+.logo{display:block;margin:0 auto}
+.kicker{font-size:8pt;letter-spacing:.35em;text-transform:uppercase}
+.h1{font-size:19pt;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-align:center}
+.footer{position:absolute;bottom:11mm;left:0;right:0;text-align:center;font-size:7pt;letter-spacing:.4em;color:var(--navy)}
+.top{padding-top:13mm;text-align:center}
+.top .logo{height:7mm;margin-bottom:5mm}
+.top .kicker{margin-bottom:3mm;color:var(--navy)}
+
+/* COVER */
+.cover{background:var(--black);color:#f5f5f5}
+.cover .top .kicker{color:#cfcfcf}
+.cover .hero{position:absolute;top:38mm;left:0;right:0;height:132mm;background:url(hero.jpg) center/cover}
+.cover .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,11,15,.55) 0%,rgba(10,11,15,0) 25%,rgba(10,11,15,0) 70%,var(--black) 100%)}
+.cover .badge{position:absolute;top:44mm;left:50%;transform:translateX(-50%);background:var(--yellow);color:var(--black);font-weight:700;font-size:9pt;letter-spacing:.25em;padding:2.2mm 5mm;white-space:nowrap;z-index:2}
+.cover .title{position:absolute;top:176mm;left:0;right:0;text-align:center}
+.cover .title h1{font-size:40pt;font-weight:700;color:var(--yellow);letter-spacing:.04em}
+.cover .title .sub{font-size:17pt;margin-top:1mm}
+.cover .title .sub2{font-size:9pt;letter-spacing:.08em;color:#cfcfcf;margin-top:5mm}
+.cover .stats{position:absolute;top:226mm;left:30mm;right:30mm;display:flex;justify-content:space-between}
+.cover .stat{flex:1;text-align:center;border-right:1px solid #444}
+.cover .stat:last-child{border-right:0}
+.cover .stat b{display:block;font-size:17pt;font-weight:600}
+.cover .stat span{font-size:6.5pt;letter-spacing:.25em;color:#aaa}
+.cover .band{position:absolute;top:256mm;left:0;right:0;background:var(--yellow);color:var(--black);text-align:center;font-size:8pt;font-weight:600;letter-spacing:.22em;padding:3.2mm 0}
+.cover .footer{color:#bbb}
+
+/* SCHULWEG */
+.intro{margin:7mm 22mm 0;text-align:center;font-size:10.5pt;line-height:1.55}
+.intro b{font-weight:600}
+.facts{display:flex;gap:5mm;margin:8mm 18mm 0}
+.fact{flex:1;background:var(--navy);color:#fff;padding:6mm 5mm;text-align:center}
+.fact b{display:block;color:var(--yellow);font-size:22pt;font-weight:700;margin-bottom:2mm}
+.fact p{font-size:8.5pt;line-height:1.45}
+.vis{margin:9mm 18mm 0}
+.vis h3,.cmp h3{font-size:9pt;letter-spacing:.25em;font-weight:600;text-transform:uppercase;margin-bottom:4mm;text-align:center}
+.bar{display:flex;align-items:center;margin-bottom:3mm;font-size:8.5pt}
+.bar .lab{width:44mm;text-align:right;padding-right:4mm;line-height:1.25}
+.bar .track{flex:1;position:relative;height:9mm;background:#ececec}
+.bar .fill{position:absolute;left:0;top:0;bottom:0;display:flex;align-items:center;justify-content:flex-end;padding-right:2.5mm;font-weight:700;font-size:9pt}
+.f1{width:6.25%;background:#9aa0ab;color:#fff}
+.f2{width:35%;background:var(--grey);color:var(--navy)}
+.f3{width:100%;background:var(--yellow);color:var(--black)}
+.stopnote{margin:2mm 0 0 44mm;font-size:7.5pt;color:var(--muted)}
+.cmp{display:flex;gap:5mm;margin:9mm 18mm 0}
+.cmp .col{flex:1;padding:5mm 6mm;border:1.5px solid var(--navy)}
+.cmp .col.led{background:var(--navy);color:#fff;border-color:var(--navy)}
+.cmp .col h4{font-size:10pt;font-weight:700;letter-spacing:.12em;margin-bottom:3mm}
+.cmp .col.led h4{color:var(--yellow)}
+.cmp ul{list-style:none;font-size:9pt;line-height:1.5}
+.cmp li{padding-left:5mm;position:relative;margin-bottom:1.2mm}
+.cmp .refl li:before{content:"–";position:absolute;left:0}
+.cmp .led li:before{content:"✓";position:absolute;left:0;color:var(--yellow);font-weight:700}
+.src{position:absolute;bottom:19mm;left:18mm;right:18mm;font-size:6.5pt;color:var(--muted);line-height:1.45}
+
+/* FOERDERVEREIN */
+.steps{margin:8mm 18mm 0;display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.step{background:var(--navy);color:#fff;padding:6mm;position:relative;min-height:43mm}
+.step .n{width:11mm;height:11mm;border-radius:50%;background:var(--yellow);color:var(--black);font-weight:700;font-size:13pt;display:flex;align-items:center;justify-content:center;margin-bottom:3mm}
+.step h4{font-size:10.5pt;font-weight:600;letter-spacing:.06em;margin-bottom:2mm}
+.step p{font-size:8.8pt;line-height:1.5;color:#e6e8ee}
+.fits{margin:8mm 18mm 0;background:var(--yellow);color:var(--black);padding:5mm 7mm}
+.fits h3{font-size:9pt;letter-spacing:.25em;font-weight:700;margin-bottom:2.5mm}
+.fits p{font-size:9pt;line-height:1.5}
+.why{margin:8mm 18mm 0;display:grid;grid-template-columns:1fr 1fr;gap:3mm 8mm}
+.why div{font-size:9pt;line-height:1.45;padding-left:6mm;position:relative}
+.why div:before{content:"";position:absolute;left:0;top:1.6mm;width:2.6mm;height:2.6mm;border-radius:50%;background:var(--yellow);border:1px solid var(--navy)}
+.why b{font-weight:600}
+.whyh{margin:8mm 18mm 0;font-size:9pt;letter-spacing:.25em;font-weight:600;text-align:center}
+
+/* BACK */
+.back{background:var(--black);color:#f5f5f5}
+.back .photo{position:absolute;top:0;left:0;right:0;height:150mm;background:url(kid2.jpg) center 40%/cover}
+.back .photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,11,15,0) 55%,var(--black) 100%)}
+.back .quote{position:absolute;top:158mm;left:22mm;right:22mm;text-align:center}
+.back .quote h2{font-size:21pt;font-weight:700;color:var(--yellow);letter-spacing:.03em;line-height:1.25}
+.back .quote p{font-size:10pt;margin-top:4mm;color:#ddd;line-height:1.5}
+.back .contact{position:absolute;top:206mm;left:30mm;right:30mm;border-top:1px solid #333;padding-top:7mm;text-align:center;font-size:10pt;line-height:1.7}
+.back .contact b{font-weight:600;color:#fff}
+.back .contact .y{color:var(--yellow)}
+.back .addr{font-size:7.5pt;color:#999;margin-top:5mm;line-height:1.6}
+.back .logo{position:absolute;bottom:20mm;left:50%;transform:translateX(-50%);height:9mm}
+.back .footer{color:#bbb}
+</style></head><body>
+
+<!-- 1 COVER -->
+<section class="page cover">
+  <div class="top"><img class="logo" src="logo.png"><div class="kicker">Wir kleiden euch in Sicherheit</div></div>
+  <div class="hero"></div>
+  <div class="badge">SICHER AUF DEM SCHULWEG</div>
+  <div class="title">
+    <h1>AKTIV LEUCHTEN</h1>
+    <div class="sub">statt nur reflektieren.</div>
+    <div class="sub2">LED-Warnwesten und -Capes für Kinder</div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>400 m</b><span>MAX. SICHTWEITE</span></div>
+    <div class="stat"><b>10 h</b><span>AKKULAUFZEIT (CA.)</span></div>
+    <div class="stat"><b>3x</b><span>FRÜHER GESEHEN</span></div>
+  </div>
+  <div class="band">INFORMATION FÜR FÖRDERVEREINE &amp; SCHULEN &nbsp;·&nbsp; HERBST/WINTER 2026/27</div>
+  <div class="footer">WWW.HEYREFLECT.COM</div>
+</section>
+
+<!-- 2 SCHULWEG -->
+<section class="page">
+  <div class="top"><img class="logo" src="logo_light.png"><div class="h1">Warum der Schulweg?</div></div>
+  <p class="intro">Von November bis Februar ist es morgens noch dunkel – genau dann, wenn Kinder zur Schule gehen.
+  Und Kinder sind klein: <b>Hinter parkenden Autos und im Gegenlicht werden sie schnell übersehen.</b></p>
+  <div class="facts">
+    <div class="fact"><b>7–8 Uhr</b><p>Zu dieser Uhrzeit verunglücken 6- bis 14-Jährige werktags am häufigsten – auf dem Weg zur Schule.</p></div>
+    <div class="fact"><b>29.270</b><p>Kinder verunglückten 2025 in Deutschland im Straßenverkehr – 7&nbsp;% mehr als im Vorjahr.</p></div>
+    <div class="fact"><b>28 m</b><p>braucht ein Auto bei Tempo 50, um anzuhalten. Ein dunkel gekleidetes Kind sieht der Fahrer erst aus ca. 25&nbsp;m.</p></div>
+  </div>
+  <div class="vis">
+    <h3>Ab welcher Entfernung wird Ihr Kind gesehen?</h3>
+    <div class="bar"><div class="lab">Dunkle Kleidung</div><div class="track"><div class="fill f1"></div><span style="position:absolute;left:8%;top:50%;transform:translateY(-50%);font-weight:700">ca. 25 m</span></div></div>
+    <div class="bar"><div class="lab">Reflektoren<br><span style="font-size:7pt;color:#6b7280">nur im Scheinwerferlicht</span></div><div class="track"><div class="fill f2">bis 140 m</div></div></div>
+    <div class="bar"><div class="lab"><b>heyReflect LED</b><br><span style="font-size:7pt;color:#6b7280">leuchtet selbst</span></div><div class="track"><div class="fill f3">bis 400 m</div></div></div>
+  </div>
+  <div class="cmp">
+    <div class="col refl"><h4>REFLEKTOREN</h4><ul>
+      <li>leuchten <b>passiv</b> – erst, wenn ein Scheinwerfer sie trifft</li>
+      <li>von der Seite, für Radfahrer und an Einfahrten oft unsichtbar</li>
+      <li>bei Regen und Gegenlicht schwächer</li></ul></div>
+    <div class="col led"><h4>heyREFLECT LED</h4><ul>
+      <li>leuchten <b>aktiv</b> – auf Knopfdruck, ganz ohne Scheinwerfer</li>
+      <li>360° sichtbar: vorne weiß, hinten rot – wie im Straßenverkehr</li>
+      <li>zusätzlich mit hochwertigen Reflektoren</li></ul></div>
+  </div>
+  <p class="src">Quellen: Statistisches Bundesamt (Destatis), Pressemitteilung zu Kinderunfällen im Straßenverkehr 2025, August 2026; ADAC, Sichtbarkeit von Fußgängern bei Dunkelheit (dunkle Kleidung ca. 25 m, Reflektoren bis 140 m; Anhalteweg bei 50 km/h ca. 28 m). Sichtweite heyReflect LED: Herstellerangabe.</p>
+  <div class="footer">WWW.HEYREFLECT.COM</div>
+</section>
+
+<!-- 3 FOERDERVEREIN -->
+<section class="page">
+  <div class="top"><img class="logo" src="logo_light.png"><div class="h1">Gemeinsam für sichere Schulwege</div></div>
+  <p class="intro">Fördervereine kennen die Eltern, die Schulwege und die Termine im Schuljahr.
+  Mit Ihnen gemeinsam bringen wir die LED-Westen <b>einfach und unkompliziert</b> zu den Kindern Ihrer Schule.</p>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><h4>Kennenlernen</h4><p>Wir stellen Ihrem Vorstand Westen und Capes zum Ausprobieren zur Verfügung – im Hamburger Raum gern auch persönlich vorbeigebracht.</p></div>
+    <div class="step"><div class="n">2</div><h4>Vorstellen</h4><p>Beim Elternabend, im Elternbrief, beim Laternenumzug oder Schulfest. Infomaterial und Muster stellen wir bereit.</p></div>
+    <div class="step"><div class="n">3</div><h4>Sammelbestellung</h4><p>Eltern bestellen gemeinsam über den Förderverein – zu Sonderkonditionen für Ihre Schule. Die Details besprechen wir gern persönlich.</p></div>
+    <div class="step"><div class="n">4</div><h4>Lieferung an die Schule</h4><p>Wir liefern gesammelt an die Schule oder den Förderverein. Pünktlich zur dunklen Jahreszeit.</p></div>
+  </div>
+  <div class="fits">
+    <h3>PASST ZU IHREN PROJEKTEN</h3>
+    <p>Schulstraße, Laufbus, „Zu Fuß zur Schule“, Verkehrserziehung oder Fahrradprüfung: Überall, wo Kinder selbstständig unterwegs sein sollen, sorgen die LED-Westen dafür, dass sie auch im Dunkeln gesehen werden.</p>
+  </div>
+  <div class="whyh">WARUM heyREFLECT</div>
+  <div class="why">
+    <div><b>Von Eltern für Kinder:</b> 2017 gegründet mit der Vision, Kinder im Straßenverkehr sicherer zu machen – aus dem Hamburger Raum.</div>
+    <div><b>Geprüft:</b> als persönliche Schutzausrüstung zertifiziert nach (EU) 2016/425.</div>
+    <div><b>Mitwachsend:</b> per Klettverschluss über mehrere Größen verstellbar und passend über die Winterjacke.</div>
+    <div><b>Kinderleicht:</b> ein Knopfdruck, ca. 10 Stunden Leuchtdauer, per USB aufladbar.</div>
+    <div><b>Bewährt:</b> über 20.000 zufriedene Kundinnen und Kunden.</div>
+    <div><b>Im Handel:</b> u. a. bei Globetrotter und in Fahrradläden erhältlich.</div>
+  </div>
+  <div class="footer">WWW.HEYREFLECT.COM</div>
+</section>
+
+<!-- 4 BACK -->
+<section class="page back">
+  <div class="photo"></div>
+  <div class="quote">
+    <h2>Gesehen werden,<br>bevor das Licht sie trifft.</h2>
+    <p>Lassen Sie uns gemeinsam dafür sorgen, dass die Kinder Ihrer Schule sicher ankommen – auch im Dunkeln.</p>
+  </div>
+  <div class="contact">
+    Ihr Ansprechpartner<br>
+    <b>Simon Schirrmacher</b><br>
+    <span class="y">simon@heyreflect.com</span><br>
+    heyreflect.com &nbsp;·&nbsp; Instagram: @heyreflect_official
+    <div class="addr">heyReflect UG (haftungsbeschränkt) · Babenkoppel 22 · 22927 Großhansdorf</div>
+  </div>
+  <img class="logo" src="logo.png">
+  <div class="footer">WWW.HEYREFLECT.COM</div>
+</section>
+</body></html>
