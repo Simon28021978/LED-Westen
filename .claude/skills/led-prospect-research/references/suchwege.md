@@ -1,28 +1,28 @@
 # Suchwege je Segment
 
-Ersetze `<Ort>` durch Stadt/Region. Verzeichnisse und Kalender sind Sprungbrett – belegt wird immer auf der eigenen Website der Organisation.
+`<Ort>` = Stadt/Region. Verzeichnisse sind Sprungbrett – belegt wird auf der eigenen Website (Impressum, Filialseite, Shop).
 
-## ICP H – Handel
-| Segment | Suchanfragen | Ergiebige Quellen (Sprungbrett) |
-|---|---|---|
-| Fahrrad/E-Bike | `Fahrradhändler <Ort>`, `E-Bike Fachhändler <Ort>`, `Fahrradladen <Ort> Zubehör` | Händlersuchen von Fahrradmarken, VSF-Mitgliederliste, ZIV/Verbund-Händlerverzeichnisse |
-| Lauf/Outdoor | `Laufsport Fachgeschäft <Ort>`, `Outdoor Ausrüster <Ort>` | Händlerfinder von Laufschuhmarken, Laufsport-Verbünde |
-| Reitsport | `Reitsport Fachhandel <Ort>` | Reitsport-Händlerverzeichnisse |
-| Hund/Zoo | `Hundesport Shop <Ort>`, `Zoofachhandel <Ort> Leuchtweste` | lokale Branchenverzeichnisse |
+## H – Fahrradhandel
+- Suche: `Fahrradhändler <Ort> Filialen`, `Fahrrad <Ort> Kinderräder woom`, `Zweirad Center <Ort>`
+- Sprungbrett: Händlerfinder von woom und Puky (Kinderrad-Fokus!), Ausstellerlisten regionaler E-Bike-Messen, ZEG-/BICO-Verbundhändler
+- Prüfen: Filialzahl (Standortseite), Kinderrad-/Zubehör-Kategorie im Shop, Suche im Shop nach „Warnweste“/„Reflexweste“, Impressum für GF und Anschrift
 
-Signale: Rubrik „Sicherheit“, „Beleuchtung“, „Reflektoren“ im Shop; Herbstaktionen; Pendler-/Dienstrad-Angebote (JobRad etc.).
+## H – Outdoor
+- Suche: `Outdoor Fachgeschäft <Ort>`, `Outdoor Ausrüster Filialen Norddeutschland`
+- Sprungbrett: Händlerfinder von Kinder-Outdoormarken (z. B. Trollkids, Jack Wolfskin Kids), Branchenberichte
+- Prüfen: Kinderkategorie, Filialen offen (Schließungen!), ob Filiale eigenständig oder über Zentrale
 
-## ICP D – Direktabnehmer
-| Segment | Suchanfragen | Ergiebige Quellen |
-|---|---|---|
-| Lieferdienste/Kuriere | `Fahrradkurier <Ort>`, `Lastenrad Lieferdienst <Ort>`, `Kurierdienst Fahrrad Logistik <Ort>`, `Apotheke Botendienst Fahrrad <Ort>` | Bundesverband Radkurierdienste, City-Logistik-Projekte, Lastenrad-Initiativen |
-| Events | `Nachtlauf <Ort> 2026`, `Lichterlauf <Ort>`, `Laternenlauf <Ort>`, `Critical Mass <Ort>`, `Radtour Nacht <Ort>` | Laufkalender-Portale, Kalender der Landes-Leichtathletikverbände, ADFC-Tourenportal |
-| Vereine | `Laufverein <Ort>`, `Lauftreff <Ort> Winter`, `Radsportverein <Ort>`, `Reitverein <Ort> Ausritt` | Landessportbünde (Vereinssuche), ADFC-Ortsgruppen |
-| Ordnerdienste/Security | `Ordnerdienst <Ort>`, `Veranstaltungsschutz <Ort>` | Branchenverzeichnisse |
-| Kitas/Schulen | `Kita Träger <Ort>`, `Schulwegsicherheit Projekt <Ort>` | Trägerverbände, kommunale Seiten |
+## H – Laufsport
+- Suche: `Laufladen <Ort>`, `Laufsport Fachhandel <Ort> Filialen`
+- Sprungbrett: Händlerfinder von Laufschuhmarken, Sponsoren lokaler Nachtläufe/Lichterläufe
+- Aufhänger: Sichtbarkeit für Läufer im Winter (LED-Sportweste, Straps)
 
-Signale: Termine im Herbst/Winter oder nach Sonnenuntergang, Flottengröße/Fahrerzahl, Teilnehmerzahlen, Stellenanzeigen für Fahrer, bestehende Warnwesten auf Fotos, Sponsoring-Seite.
+## F – Fördervereine Grundschulen
+- Suche: `Förderverein Grundschule <Bezirk>`, `Schulverein <Schulname>`, `Schulstraße Hamburg <Bezirk>`, `Laufbus Grundschule Hamburg`, `Bici Bus Hamburg`
+- Sprungbrett: Liste der Hamburger Schulstraßen-Projekte (Behörde/Bezirke, Presse), Schulwebsites `*.hamburg.de` (Rubrik Schulverein/Förderverein), Vereinsflyer, Satzung (Förderzweck)
+- Prüfen: Vereins-E-Mail auf der Website (Schreibweise!), Vorstand aktuell (Jahr), Schultyp, Verkehrsthemen und Etatposten
 
-## Wenig ergiebig (Stand v1, beim Lernen aktualisieren)
-- Allgemeine Branchenbuch-Portale ohne Websites der Firmen
-- Plattform-Lieferdienste (Fahrer selbstständig, Einkauf zentral)
+## Wenig ergiebig / aussortieren
+- Einzelläden (Handel) – zu wenig Volumen
+- Schulen außerhalb der Zielregion (Achtung bei gleichnamigen Schulen, z. B. Berlin)
+- Websites, die den automatischen Abruf blockieren (403): Impressum einer Filiale mit gleichem GF als Ersatzquelle, im Prüfhinweis vermerken

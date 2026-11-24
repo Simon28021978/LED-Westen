@@ -1,71 +1,67 @@
 ---
 name: led-prospect-research
-description: Prospect-Recherche für das LED-Westen-B2B-Geschäft – ICP bestimmen und schärfen (Wiederverkäufer und Direktabnehmer getrennt), Zielfirmen per Web-Recherche finden und belegen, gegen das ICP bewerten und Ergebnisse zu Segment-Insights und Top-Leads verdichten; liest und schreibt Leadlisten auch in Google Sheets/Drive. Nutze diesen Skill immer, wenn es um LED-Westen-Leads, Zielkunden, ICP, Zielgruppen, Marktsegmente, Prospect-Listen, „wen sollen wir anschreiben“, Lead-Auswertung oder eine Zusammenfassung bisheriger Recherche geht – auch wenn der Begriff „ICP“ nicht fällt, und auch als Arbeitsgrundlage für die Agenten Tim, Rico und Daniel.
+description: Prospect-Recherche für heyReflect (LED-Westen und -Capes, v. a. für Kinder) – ICP anwenden und schärfen (Handel: Fahrrad, Outdoor, Laufsport; Fördervereine von Grundschulen), neue Händler oder Fördervereine per Web-Recherche finden, belegen und nach festem Scoring bewerten, bestehende Leadlisten in Google Sheets auswerten und zu Top-Leads, Erkenntnissen und nächsten Schritten verdichten. Nutze diesen Skill immer, wenn es um heyReflect- oder LED-Westen-Leads, Zielkunden, ICP, Händlerakquise, Fahrradläden, Outdoor-/Laufläden, Fördervereine, Schulvereine, Schulstraßen, Pipeline-Auswertung oder „wen sollen wir als Nächstes anschreiben“ geht – auch wenn „ICP“ nicht fällt, und auch als Arbeitsgrundlage für Tim, Rico und Daniel.
 ---
 
-# LED-Westen: ICP & Prospect-Recherche
+# heyReflect: ICP & Prospect-Recherche
 
-Ziel: Aus einer Hypothese über gute Kunden wird eine belegte, priorisierte Liste von Firmen, die das Team (Rico, Daniel, Simon) direkt anschreiben kann – und aus den Ergebnissen lernt das ICP mit.
+Ziel: Neue Händler und Fördervereine finden, die nachweislich ins ICP passen, so belegt und bewertet, dass das Team sie ohne Nacharbeit anschreiben kann – und aus den laufenden Listen lernen, welches ICP-Merkmal wirklich zählt.
 
-Der Skill hat drei Modi. Erkenne aus der Anfrage, welcher gebraucht wird; oft sind es mehrere nacheinander.
+**Zuerst lesen:** `references/icp.md` (Produkt, ICP H und F, Scoring, Kontaktregeln). Für Recherche zusätzlich `references/suchwege.md`, für Ein-/Ausgabe `references/datenformat.md`.
+
+## Modus erkennen
 
 | Modus | Auslöser | Ergebnis |
 |---|---|---|
-| A. ICP | „ICP bestimmen/schärfen“, „wer ist unser Zielkunde“, kein `daten/icp.md` vorhanden | `daten/icp.md` |
-| B. Recherche | „finde Leads/Firmen“, Segment + Region genannt | `daten/recherche_<segment>_<region>_YYYY-MM-DD.csv` |
-| C. Zusammenfassung | „fasse zusammen“, „was haben wir“, „wen zuerst anschreiben“ | Kurzbericht im Chat (+ optional `daten/zusammenfassung_YYYY-MM-DD.md`) |
+| A. ICP schärfen | „ICP anpassen“, neue Erkenntnisse/Antworten von Prospects | aktualisierte `references/icp.md` (neue Version + Protokoll) |
+| B. Recherche | „finde Fahrradläden in …“, „mehr Fördervereine in Altona“ | CSV unter `daten/` im Sheet-Format |
+| C. Auswertung | „fasse zusammen“, „wie steht die Pipeline“, „wen zuerst anschreiben/nachfassen“ | Kurzbericht im Chat |
 
-Wenn `daten/icp.md` fehlt und Modus B gefragt ist: erst Modus A kurz ausführen (Hypothese anlegen), dann recherchieren. Ohne ICP gibt es keine nachvollziehbare Bewertung.
+## Grundsätze
 
-## Grundsätze (gelten in allen Modi)
+- **Beleg vor Menge.** Jede Angabe braucht eine Quell-URL. Eine falsche Anrede oder ein falscher Aufhänger im Brief kostet mehr als ein fehlender Lead.
+- **Keine erfundenen Kontaktdaten.** Namen und E-Mails nur, wenn sie öffentlich auf der Firmen-, Vereins- oder Schulseite stehen. Unsicheres gehört in `pruefhinweis`.
+- **Bestand zuerst.** Vor jeder Recherche die bestehenden Sheets lesen und gegen sie abgleichen (Domain/Firmenname). Bereits aussortierte Firmen nicht erneut vorschlagen.
+- **Scoring nach `icp.md`, nicht nach Gefühl.** Rohwerte K1–K6 bzw. die F-Kriterien einzeln ausweisen, damit die Bewertung nachvollziehbar und korrigierbar ist. Zahlen per Code berechnen.
+- **Aussortieren ist ein Ergebnis.** Einzelläden, falsche Region, Filialen einer Zentrale: mit Grund dokumentieren statt weglassen.
+- **Nur lesen in den Sheets, außer der Nutzer will es anders.** Neue Leads als CSV ablegen; ins Sheet nur anhängen, wenn der Nutzer das ausdrücklich will, und vorher Tab und Zeilen bestätigen lassen. Scorecard/Dashboard-Daten nie anfassen.
+- **Kostenfrei.** Websuche und öffentliche Seiten; keine kostenpflichtigen Datenanbieter, außer ausdrücklich gewünscht.
+- **Ehrlich berichten.** Dünne Ergebnisse, widersprüchliche Quellen oder ein unergiebiges Segment klar benennen.
 
-- **Beleg vor Menge.** Jede Angabe zu einer Firma braucht eine Quell-URL. Lieber 15 belegte Leads als 50 geratene – eine falsche Ansprache kostet Glaubwürdigkeit, die ein kleines Geschäft nicht übrig hat.
-- **Keine erfundenen Kontaktdaten.** Keine geratenen E-Mails (info@…), Telefonnummern oder Namen. Personennamen nur, wenn sie öffentlich auf der Firmen-/Vereinsseite stehen. Keine Privatpersonen.
-- **Hypothese ≠ Fakt.** Das ICP ist anfangs eine begründete Annahme. Kennzeichne Annahmen als solche und halte fest, was sie bestätigen oder widerlegen würde.
-- **Zahlen per Skript.** Zählungen, Verteilungen und Scores werden mit `scripts/auswertung.py` (oder eigenem Code) berechnet, nie geschätzt.
-- **Ehrlich berichten.** Sind Ergebnisse dünn oder ein Segment unergiebig, sag das klar – das ist eine wertvolle Erkenntnis, kein Misserfolg.
-- **Kostenfrei.** Recherche nur über Websuche und öffentliche Websites. Keine kostenpflichtigen Datenanbieter (z. B. Lusha), außer der Nutzer verlangt es ausdrücklich.
+## Modus A – ICP schärfen
 
-## Modus A – ICP bestimmen oder schärfen
+1. `references/icp.md` lesen.
+2. Neue Belege sammeln: Antworten/Stufen aus den Sheets (wer ist „Im Gespräch“, „Verloren“, mit welchem `verlustgrund`), Feedback des Nutzers.
+3. Nur ändern, was belegt ist. Jede Änderung: Version hoch, Zeile im Änderungsprotokoll, betroffene „Offene Annahme“ auf bestätigt/widerlegt setzen.
+4. Im Chat nur die Änderungen nennen.
 
-1. Prüfe, ob `daten/icp.md` existiert.
-   - **Nein:** Lege es aus `references/icp-hypothese.md` an (Vorlage mit zwei ICPs: H = Wiederverkäufer, D = Direktabnehmer). Passe an, was der Nutzer an Kontext liefert (Produkt, Preis, Region, Mindestmenge).
-   - **Ja:** Lies es und schärfe es mit neuen Belegen (Recherche-Ergebnisse, Antworten von Prospects, Feedback). Erhöhe die Versionsnummer und ergänze das Änderungsprotokoll unten in der Datei.
-2. Jedes ICP enthält: Segmente, Firmografie (Größe, Region), Bedarfsauslöser, Kaufrolle, Ausschlusskriterien, Scoring-Kriterien, offene Annahmen mit Prüfweg.
-3. Fehlen entscheidende Infos (z. B. Zielregion, Preisniveau/Marge, Mindestabnahme), stelle maximal 2–3 Rückfragen oder triff eine benannte Annahme.
-4. Gib im Chat nur die Änderungen bzw. die 5 wichtigsten Punkte aus, nicht die ganze Datei.
+## Modus B – Recherche
 
-## Modus B – Recherche nach ICP
+1. **Auftrag klären:** ICP-Typ (H oder F), Segment, Region, Menge. Fehlt etwas → benannte Annahme (Default H: Norddeutschland, 10 Leads; F: Hamburg, 10 Fördervereine).
+2. **Bestand laden:** passende Tabs aus den Sheets lesen (IDs in `datenformat.md`), Firmen/Schulen als Ausschlussliste merken.
+3. **Suchen** mit den Wegen aus `suchwege.md`.
+4. **Verifizieren auf der eigenen Website:** Impressum (GF, Anschrift), Filialseite (Anzahl, aktuell offen?), Shop (Kindersortiment, Warn-/Reflexwesten). Bei F: Vereinsseite, Vorstand (Jahr!), Vereins-E-Mail, Verkehrsthemen, Schulstraßen-Pläne.
+5. **Aufhänger formulieren:** ein Satz, konkret und belegt, so wie er im Brief/der Mail stehen kann (Beispiele: „Sie führen Kinder- und Laufräder von Puky sowie Helme und Beleuchtung …“, „Knauerstraße wird ab 2027 Schulstraße …“).
+6. **Bewerten** nach `icp.md` (H: K1–K6 → fit_score/fit_klasse; F: Score 0–100 → Priorität).
+7. **Speichern** als CSV gemäß `datenformat.md`, sortiert nach Score. Bestehende Dateien nicht überschreiben (`_v2` …).
+8. **Abschluss:** Anzahl je Klasse, aussortiert mit Grund, Unsicherheiten, ergiebige/unergiebige Suchwege.
 
-1. **Auftrag klären:** Segment(e), Region, Zielmenge. Fehlt etwas → Annahme treffen und oben im Ergebnis nennen (Default: 15 Leads, ein Segment, Region aus `daten/icp.md`).
-2. **Suchen:** Nutze die Suchwege aus `references/suchwege.md` für das Segment. Kombiniere Branchenbegriff + Ort; nutze Verbände, Veranstaltungskalender und Händlerverzeichnisse als Sprungbrett, nicht als Endquelle.
-3. **Verifizieren:** Öffne für jeden Kandidaten die eigene Website (Impressum, Über uns, Kontakt, Termine). Nimm nur auf, wer existiert und aktiv ist (aktuelle Angebote/Termine 2025/2026).
-4. **ICP-Signale erfassen:** Notiere konkret belegte Bedarfsauslöser (z. B. „Radkurierflotte, Lieferung bis 22 Uhr“, „Nachtlauf im November mit 800 Startern“, „führt Warnwesten-Sortiment“). Diese Signale sind der Kern der späteren Ansprache.
-5. **Bewerten:** Fit-Score 0–10 nach den Kriterien in `daten/icp.md`, Priorität A (8–10) / B (5–7) / C (0–4). Jede A-Priorität bekommt einen Satz Begründung.
-6. **Dubletten prüfen:** Vor dem Schreiben gegen vorhandene Dateien in `daten/` (und das Google Sheet, falls genutzt) abgleichen – gleiche Domain = Dublette.
-7. **Speichern:** CSV im Format aus `references/datenformat.md`. Überschreibe keine bestehende Datei (`_v2`, `_v3` anhängen).
+## Modus C – Auswertung
 
-## Modus C – Zusammenfassen
+1. Sheets lesen (`get_values` je Tab), lokal als CSV in den Scratchpad schreiben.
+2. `python .claude/skills/led-prospect-research/scripts/auswertung.py <datei.csv> [...]` ausführen – liefert Bestand, Dubletten, Verteilung nach Klasse/Segment/Stufe/Status, fällige Nachfass-Termine und Datenlücken.
+3. Bericht, knapp in Bulletpoints:
+   - **Pipeline:** Leads je Liste, je Stufe/Status, Rückmeldungen bisher
+   - **Fällig:** Nachfassen in den nächsten 7 Tagen (Firma, Datum, Schritt)
+   - **Als Nächstes anschreiben:** Top 5 noch nicht kontaktierte A/B-Leads mit Aufhänger
+   - **Erkenntnisse:** was Antworten bringt (sobald vorhanden), welche ICP-Annahme wackelt
+   - **Lücken:** fehlende Anschriften/Entscheider, unbestätigte E-Mails
+   - **Nächste Schritte:** max. 3
+4. Ergibt sich eine ICP-Erkenntnis → Modus A anbieten.
 
-1. Lies alle relevanten CSVs aus `daten/` (bzw. das Google Sheet).
-2. Führe `python .claude/skills/led-prospect-research/scripts/auswertung.py daten/<datei>.csv [weitere.csv]` aus. Das Skript liefert Gesamtzahl, Dubletten über Dateien hinweg, Verteilung nach ICP-Typ, Segment, Priorität, Region sowie Datenlücken.
-3. Interpretiere die Zahlen. Bericht im Chat, knapp in Bulletpoints:
-   - **Bestand:** Leads gesamt, A/B/C, je ICP-Typ und Segment
-   - **Top 5–10 zum Anschreiben:** Firma, Segment, konkreter Aufhänger (Signal), Quelle
-   - **Erkenntnisse:** welches Segment ergiebig war, welche ICP-Annahme sich bestätigt oder wackelt
-   - **Lücken:** fehlende Rollen, unbelegte Felder, unergiebige Suchwege
-   - **Nächste Schritte:** max. 3, konkret (z. B. „Segment Lieferdienste Hamburg vertiefen“, „ICP D: Mindestgröße auf 5 Fahrer anheben“)
-4. Ergibt sich eine ICP-Erkenntnis, biete an, `daten/icp.md` zu aktualisieren (Modus A).
+## Zusammenspiel mit dem Team
 
-## Google Sheets / Drive
-
-Nur nutzen, wenn der Nutzer ein Sheet nennt oder darum bittet. Lade die Tools bei Bedarf per ToolSearch (`Google_Sheets`, `Google_Drive`).
-- **Lesen:** Datei per Drive-Suche finden, Werte per `get_values` lesen, lokal als CSV ablegen, dann wie gewohnt auswerten.
-- **Schreiben:** Nur anhängen (`append_values`), nie bestehende Zeilen überschreiben oder löschen. Spaltenreihenfolge wie in `references/datenformat.md`. Vor dem ersten Schreiben in ein Sheet kurz bestätigen lassen, welches Sheet und welcher Tab.
-
-## Zusammenspiel mit dem Agenten-Team
-
-- **rico-recherche** kann Modus B ausführen; gib ihm Segment, Region, Menge und den Pfad zu `daten/icp.md` mit.
-- **daniel-daten** bereinigt und bewertet; das ICP in `daten/icp.md` ersetzt seine groben Segment-Annahmen beim Scoring.
-- **tim-teamleiter** nutzt Modus C für seinen Abschlussbericht.
-- Für die eigentliche Ansprache (E-Mail-Entwürfe) ist dieser Skill nicht zuständig – er liefert die Aufhänger dafür.
+- **rico-recherche** führt Modus B aus; gib ihm `references/icp.md`, Segment, Region, Menge und die Ausschlussliste mit.
+- **daniel-daten** bereinigt; für das Scoring gilt `icp.md`, nicht seine allgemeinen Segmentregeln.
+- **tim-teamleiter** nutzt Modus C für den Wochenstand.
+- Anschreiben und Briefe sind nicht Teil dieses Skills – er liefert Aufhänger und Entscheider dafür.

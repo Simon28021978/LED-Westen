@@ -1,25 +1,34 @@
-# Datenformat Leadlisten
+# Datenquellen und Formate
 
-UTF-8, Semikolon als Trenner, Kopfzeile. Kompatibel mit daniel-daten (gleiche Spalten, plus `icp_typ`, `signal`, `recherchiert_am` am Ende).
+## Bestehende Google Sheets (Hauptquelle)
 
+| Sheet | ID | Tabs |
+|---|---|---|
+| heyReflect Akquise-Pipeline Händler | `1rQTJ1LH9NKALsuLXtXC_GcP3m-my2wwPm03MEWmuZxU` | Scorecard, Inhaber, Mittelgroß, Outdoor, Dashboard-Daten |
+| Leads – Fördervereine Grundschulen Hamburg | `1Hq4N1wW_ArexoiA8PI53aJtlcn8satLBaqKTbaZcce0` | Pipeline, Details & Recherche |
+
+Die Scorecard und Dashboard-Daten werden automatisch aus den Listen berechnet – dort nie schreiben.
+
+**Pipeline-Stufen (Händler):** 1 Recherche fertig · 2 Brief versendet · 3 Im Gespräch · 4 Muster beim Händler · 5 Angebot · 6 Bestellt · 7 Nachorder · X Verloren
+**Status (Fördervereine):** offen · angeschrieben · (Antwort) · raus
+
+## Neue Recherche-Ergebnisse (CSV im Repo)
+
+Datei: `daten/recherche_<segment>_<region>_YYYY-MM-DD.csv`, UTF-8, Semikolon, Kopfzeile. Spalten so gewählt, dass sie 1:1 in den passenden Tab kopiert werden können.
+
+**Händler (H)**
 ```
-firma;ort;plz;segment;website;ansprechpartner_rolle;quelle;fit_score;prioritaet;begruendung;pruefhinweis;icp_typ;signal;recherchiert_am
+firma;segment;ort;filialen;geschaeftsfuehrung;strasse;plz;website;kinder_sortiment;westen_im_sortiment;K1_filialen;K2_kinder;K3_westen;K4_entscheider;K5_nord;K6_adresse;fit_score;fit_klasse;aufhaenger;quelle;pruefhinweis;stufe
 ```
+`stufe` = „1 Recherche fertig“. Aussortierte Leads mit Grund in `pruefhinweis` behalten (z. B. „aussortiert: Einzelladen – zu wenig Volumen“), damit niemand sie erneut recherchiert.
 
-| Spalte | Inhalt |
-|---|---|
-| firma | Offizieller Name laut Impressum |
-| ort, plz | Ort, 5-stellige PLZ (leer, wenn nicht belegt) |
-| segment | z. B. Fahrradhandel, Outdoor, Reitsport, Lieferdienst, Event, Verein, Ordnerdienst, Kita/Schule |
-| website | https-URL ohne Tracking-Parameter |
-| ansprechpartner_rolle | Funktion (Inhaber, Flottenleitung, Vorstand …); Name nur, wenn öffentlich auf der Website |
-| quelle | URL, auf der die Angaben belegt sind (Pflicht) |
-| fit_score | 0–10 nach `daten/icp.md` |
-| prioritaet | A/B/C |
-| begruendung | Ein Satz, Pflicht bei A |
-| pruefhinweis | keine_quelle, url_ungueltig, plz_pruefen, segment_unklar, … (mehrere mit Komma) |
-| icp_typ | H (Wiederverkäufer) oder D (Direktabnehmer) |
-| signal | Konkreter, belegter Bedarfsauslöser – der Aufhänger für die Ansprache |
-| recherchiert_am | YYYY-MM-DD |
+**Fördervereine (F)**
+```
+foerderverein;schule;schultyp;bezirk;schulstrasse;ansprechpartner;email_haupt;email_alternativ;story_aufhaenger;pruefhinweis;website;quelle;score;prioritaet;status
+```
+`status` = „offen“.
 
-Sortierung: Priorität, dann Fit-Score absteigend.
+## Regeln
+- `quelle` ist Pflicht (URL, mehrere mit ` | `).
+- Namen und E-Mails nur, wenn öffentlich auf der Firmen-/Vereins-/Schulseite. Privatadressen als solche kennzeichnen.
+- Unsicheres in `pruefhinweis`, nicht im Aufhänger.
