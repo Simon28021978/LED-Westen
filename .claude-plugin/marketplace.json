@@ -3,6 +3,6 @@
   "owner": { "name": "Simon" },
   "plugins": [
     { "name": "limits-band", "source": "./mods/limits-band", "description": "Zeigt 5-Stunden- und Wochenlimit dauerhaft über dem Prompt" },
-    { "name": "user-name", "source": "./mods/user-name", "description": "Zeigt den Namen Simon vor jeder eigenen Nachricht" }
+    { "name": "user-name", "source": "./mods/user-name", "description": "Zeigt den Namen Simon und einen goldenen Rahmen um jede eigene Nachricht" }
   ]
 }

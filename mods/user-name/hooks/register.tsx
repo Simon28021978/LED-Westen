@@ -1,6 +1,7 @@
 import type { Register } from 'claude-code'
 
 const NAME = 'Simon'
+const GOLD = '#D4AF37'
 const OWN = new Set(['composer', 'bridge', 'sdk'])
 
 export const register: Register = on => {
@@ -9,8 +10,8 @@ export const register: Register = on => {
     const row = await next(e)
     const { Box, Text } = $.ui.resolve(e)
     return (
-      <Box flexDirection="column">
-        <Text bold color="cyan">{NAME}</Text>
+      <Box flexDirection="column" borderStyle="round" borderColor={GOLD} paddingX={1}>
+        <Text bold color={GOLD}>{NAME}</Text>
         {row}
       </Box>
     )

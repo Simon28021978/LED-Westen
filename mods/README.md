@@ -1,7 +1,7 @@
 # Claude-Code-Mods
 
 - **limits-band**: zeigt das 5-Stunden- und das Wochenlimit (Prozent + Reset-Zeit) dauerhaft über dem Prompt und in der Statuszeile.
-- **user-name**: setzt „Simon“ als Überschrift über jede eigene Nachricht im Chat.
+- **user-name**: setzt „Simon“ als Überschrift und einen goldenen Rahmen um jede eigene Nachricht.
 
 ## Installation
 
