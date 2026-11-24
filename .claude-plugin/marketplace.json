@@ -1,0 +1,8 @@
+{
+  "name": "led-westen-mods",
+  "owner": { "name": "Simon" },
+  "plugins": [
+    { "name": "limits-band", "source": "./mods/limits-band", "description": "Zeigt 5-Stunden- und Wochenlimit dauerhaft über dem Prompt" },
+    { "name": "user-name", "source": "./mods/user-name", "description": "Zeigt den Namen Simon vor jeder eigenen Nachricht" }
+  ]
+}

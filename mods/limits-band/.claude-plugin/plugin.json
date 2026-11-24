@@ -1,0 +1,1 @@
+{ "name": "limits-band", "version": "0.1.0", "description": "Zeigt 5-Stunden- und Wochenlimit dauerhaft über dem Prompt", "types": "./types/index.d.ts" }
