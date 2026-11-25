@@ -58,6 +58,16 @@ Händlermarge auf UVP netto (19 % MwSt.): ca. 35–44 %, Sport-/Freizeitweste ca
 8. Fehlt: Mindestbestellmenge, Staffelpreise, Versandkosten, Lieferzeit, Zahlungsziel, AGB-Link
 9. Gibt es weitere Editionen (z. B. Rad)?
 
+## ICP Händlerakquise (verbindlich)
+- **Volumen vor Einzelladen**: Filialisten (ab ca. 3 Häusern mit nennenswerter Fläche), Ketten, Verbundgruppen (INTERSPORT, SPORT 2000, ZEG), große Onlinehändler
+- **Kein ICP**: Einzelläden und Kleinstfilialisten, die nur eine Handvoll Westen abnehmen → aussortieren bzw. Klasse C, nicht anschreiben
+- Jeden neuen Lead und jeden Mail-Entwurf vor Versand gegen diese Regel prüfen
+
+## Arbeitslisten (Google Drive, geteilte Ablage „Vertrieb“)
+- Händler: „heyReflect Akquise-Pipeline Händler“ (Blätter Inhaber, Mittelgroß, Outdoor pflegen; Stufen 1–7 / X laut Scorecard)
+- Fördervereine HH: „Leads – Fördervereine Grundschulen Hamburg“ (Blatt „Pipeline“ führend)
+- Werbeaussagen wie „über 20.000 Familien“ oder „von unabhängigen Instituten geprüft“ nur mit Beleg verwenden
+
 ## Regeln für alle Agenten
 - Technische Daten, Normen und Preise nur aus dieser Datei bzw. der Broschüre; Unklares als `[TODO: Angabe fehlt]` markieren
 - Normkonformität nur produkt- und farbgenau angeben (siehe Tabelle)
