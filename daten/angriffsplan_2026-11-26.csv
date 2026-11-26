@@ -1,0 +1,61 @@
+prio;tag;firma;kategorie;filialen;fit_icp;aktion;begruendung
+1;heute;Fahrrad Rachow;Rad;5;A;anrufen;Fit A, Filialen: 5, Nachfass heute fällig, erwarteter Wert 2.500 €.
+2;heute;HAHNE - FAHRRAD GmbH & Co. KG;Rad;3;A;anrufen;Fit A, Filialen: 3, Nachfass heute fällig, erwarteter Wert 2.500 €.
+3;heute;Zweirad-Center Stadler GmbH;Rad;22;A;anrufen;Fit A, Filialen: 22, Nachfass heute fällig, erwarteter Wert 11.000 €.
+4;heute;MEGA Bike GmbH;Rad;unbekannt;B;anrufen;Fit B, Filialen: unbekannt, Nachfass heute fällig, erwarteter Wert 7.500 €.
+5;heute;Fahrrad Wollesen GmbH & Co. KG;Rad;unbekannt;B;anrufen – Entscheider erfragen;Fit B, Filialen: unbekannt, Nachfass heute fällig, erwarteter Wert 2.500 €.
+6;heute;Das RADhaus;Rad;unbekannt;B;anrufen;Fit B, Filialen: unbekannt, Nachfass heute fällig, erwarteter Wert 5.000 €.
+7;heute;Hans Jürgensen GmbH & Co. KG;Outdoor;3-4 (5.000 qm);A;anrufen – Einkaufsverantwortlichen klären, dann Erstansprache;A-Lead, Filialen: 3-4 (5.000 qm), Kinderbezug belegt, Norden, Recherche fertig.
+8;morgen;my Boo GmbH (Küstenrad);Rad;unbekannt;B;anrufen;Fit B, Nachfass fällig 27.11.2026, erwarteter Wert 8.500 €.
+9;morgen;Begro R. Krug GmbH (INTERSPORT Begro);Outdoor;ca. 9;A;anrufen – Einkaufsverantwortlichen klären, dann Erstansprache;A-Lead, Filialen: ca. 9, Kinderbezug belegt, Recherche fertig.
+10;morgen;Sporthaus Krumholz (INTERSPORT Krumholz);Outdoor;5;A;anrufen – Einkaufsverantwortlichen klären, dann Erstansprache;A-Lead, Filialen: 5, Kinderbezug belegt, Recherche fertig.
+11;morgen;Löckenhoff + Schulte GmbH (Rad1);Rad;2 Großflächen+Online (12.000 qm);A;Erstansprache vorbereiten (Brief Variante Mittelgroß);A-Lead, Filialen: 2 Großflächen+Online (12.000 qm), Kinderbezug belegt, Recherche fertig.
+12;morgen;Arends E-Bikes GmbH & Co. KG;Rad;5;A;Erstansprache vorbereiten (Brief Variante Mittelgroß);A-Lead, Filialen: 5, Kinderbezug nicht belegt, Recherche fertig.
+13;morgen;Die Speiche Fahrradladen GmbH;Rad;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Rad; Hinweis: Kategorie Kinder/Jugend), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+14;morgen;Fahrrad Hansen;Rad;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Rad; Hinweis: Puky Kinderräder), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+15;morgen;Fahrradhaus Jordan e.K.;Rad;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Rad; Hinweis: Puky), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+16;morgen;Gans Glückselig;Kinder/Spielwaren;1;C (Einzelladen);anrufen (nur wenn Zeit übrig) – Zustellung des Briefs prüfen;"Einzelladen (Kinder/Spielwaren; Hinweis: Bounce-Risiko), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+17;morgen;Kinderkram (S. Kunert e.K.);Kinder/Spielwaren;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Kinder/Spielwaren; Hinweis: führt Corvus-Kinderwesten (Reflex)), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+18;morgen;Quo Vadis;Outdoor;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Outdoor; Hinweis: Kindersortiment; führt Reflexwesten), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+19;morgen;Rad Ab!;Rad;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Rad; Hinweis: Kinderräder, >1000 Räder), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+20;morgen;Radschlag Fahrradhandel GmbH;Rad;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Rad; Hinweis: woom Kinderräder), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+21;morgen;Salima Kinderschätze GmbH;Kinder/Spielwaren;1;C (Einzelladen);anrufen (nur wenn Zeit übrig);"Einzelladen (Kinder/Spielwaren; Hinweis: Schulranzen/ergobag), Nachfass fällig 27.11.2026, aber kein Volumen-ICP."
+22;naechste_woche;BIKE Market GmbH;Rad;9;A;anrufen (Detlev Mathew);Fit A, Filialen: 9, Nachfass fällig 01.12.2026.
+23;naechste_woche;Fördervereine Grundschulen HH (9 offen);Förderverein;–;A;Mail senden (Nachfass-Mail 1 an 9 offene Fördervereine, Bonifatius ausnehmen);Großabnehmer mit Kinderbezug, Nachfass-Mail fällig 30.11./01.12.2026.
+24;naechste_woche;RABE Fahrradhandel GmbH;Rad;10;A;anrufen – Einkauf erfragen;Fit A, Filialen: 10, Nachfass fällig 02.12.2026.
+25;naechste_woche;Sport Rossow GmbH (Intersport Rossow);Outdoor;4-5;B;anrufen – Einkauf erfragen;Fit B, Filialen: 4-5, Nachfass fällig 02.12.2026.
+26;naechste_woche;Trekking König GmbH;Outdoor;3+Outlet;B;anrufen (Stefan König);Fit B, Filialen: 3+Outlet, Nachfass fällig 01.12.2026.
+27;naechste_woche;Fahrrad Hammer GmbH;Rad;7;B;anrufen – Einkauf erfragen;Fit B, Filialen: 7, Nachfass fällig 02.12.2026.
+28;naechste_woche;Sport Wolf (INTERSPORT Wolf);Outdoor;3-4;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 3-4, Kinderbezug belegt.
+29;naechste_woche;Sporthaus Olympia (INTERSPORT Olympia);Outdoor;4;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 4, Kinderbezug belegt.
+30;naechste_woche;Conrad GmbH (Sport Conrad);Outdoor;3+Online;B;Erstansprache vorbereiten (Brief versenden);B-Lead, Filialen: 3+Online, Kinderbezug belegt.
+31;naechste_woche;Hochrath Zweiradfachgeschäft GmbH;Rad;3;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 3, Kinderbezug belegt.
+32;naechste_woche;Bergzeit GmbH;Outdoor;Online+2;B;Erstansprache vorbereiten (Brief versenden);B-Lead, Filialen: Online+2, Kinderbezug belegt.
+33;naechste_woche;CAMP4 Handels GmbH;Outdoor;1+Online;B;Erstansprache vorbereiten (Brief versenden);B-Lead, Filialen: 1+Online, Kinderbezug belegt.
+34;naechste_woche;Bergfreunde GmbH;Outdoor;Online;B;Erstansprache vorbereiten (Brief versenden);B-Lead, Filialen: Online, Kinderbezug belegt.
+35;naechste_woche;outdoortrends GmbH & Co. KG;Outdoor;Online;B;Erstansprache vorbereiten (Brief versenden);B-Lead, Filialen: Online, Kinderbezug belegt.
+36;naechste_woche;Gustav Ramelow GmbH & Co. KG;Outdoor;4;B;anrufen – Einkaufsverantwortlichen klären, dann Erstansprache;B-Lead, Filialen: 4, Kinderbezug nicht belegt, Norden.
+37;naechste_woche;Sporthaus Nis Knudsen KG;Outdoor;ca. 3 (unklar);B;Status prüfen (Website/Betrieb), dann Erstansprache vorbereiten;B-Lead, Filialen: ca. 3 (unklar), Kinderbezug nicht belegt, Norden, Hinweis: Website down, Status unklar.
+38;naechste_woche;Bikesnboards GmbH;Rad;unbekannt;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: unbekannt, Kinderbezug nicht belegt.
+39;naechste_woche;INTERSPORT Hübner;Outdoor;ca. 9;B;Status prüfen (Website/Betrieb), dann Erstansprache vorbereiten;B-Lead, Filialen: ca. 9, Kinderbezug nicht belegt, Hinweis: nur Fachpresse, Website down.
+40;naechste_woche;INTERSPORT Siebzehnrübl;Outdoor;7;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 7, Kinderbezug nicht belegt, Hinweis: Stammdaten lückenhaft.
+41;naechste_woche;Schübro Bike GmbH (18° GRAD);Rad;4;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 4, Kinderbezug nicht belegt.
+42;naechste_woche;Bittl Schuhe + Sport GmbH;Outdoor;2-3;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 2-3, Kinderbezug nicht belegt.
+43;naechste_woche;Reischmann Sport;Outdoor;3;B;Erstansprache vorbereiten (Brief Variante Mittelgroß);B-Lead, Filialen: 3, Kinderbezug nicht belegt.
+44;zurueckstellen;Unterwegs Outdoor Shop GmbH;Outdoor;19+3;A;Wiedervorlage 12.01.2027 – anrufen;Im Gespräch, Nachfassen mit Daniel Heydinger ist auf 12.01.2027 vereinbart.
+45;zurueckstellen;PB Cleverbikes GmbH;Rad;8;B;keine Aktion;Fit B, aber laut Hinweis kein Kinderbezug (refurbished E-Bikes, keine Kinder) – Kinderprodukte sind Haupthebel.
+46;zurueckstellen;Fahrrad Concept / Fahrrad Eck;Rad;3 klein;C;keine Aktion;Fit C (Filialen: 3 klein) – kein Volumen-ICP, vor Ansprache ICP klären.
+47;zurueckstellen;Edelhelfer Handelsges. mbH;Rad;unbekannt;C;keine Aktion;Fit C (Filialen: unbekannt) – kein Volumen-ICP, vor Ansprache ICP klären.
+48;zurueckstellen;BIWAK Outdoor Equipment OHG;Outdoor;1;C (Einzelladen);nicht nachfassen;Einzelladen ohne belegten Kinderbezug – kein ICP, Nachfass nur bei Restzeit.
+49;zurueckstellen;TomKlee Outdoor Elements e.K.;Outdoor;1;C (Einzelladen);nicht nachfassen;Einzelladen ohne belegten Kinderbezug – kein ICP, Nachfass nur bei Restzeit.
+50;zurueckstellen;Trekkinghaus Greifswald;Outdoor;1;C (Einzelladen);nicht nachfassen;Einzelladen ohne belegten Kinderbezug – kein ICP, Nachfass nur bei Restzeit.
+51;zurueckstellen;bluesky;Outdoor;1;C (Einzelladen);nicht nachfassen;Einzelladen ohne belegten Kinderbezug – kein ICP, Nachfass nur bei Restzeit.
+52;zurueckstellen;running green GmbH;Lauf;1;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+53;zurueckstellen;bunert online GmbH;Lauf;11-13;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+54;zurueckstellen;Active Sportshop GmbH;Lauf;4;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+55;zurueckstellen;Laufladen rennwerk;Lauf;4;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+56;zurueckstellen;Laufladen Endspurt GmbH;Lauf;3;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+57;zurueckstellen;go3 KG;Lauf;3;zurückgestellt;nicht nachfassen;"Laufläden sind laut Simon zurückgestellt; eingehende Antwort nur reaktiv bearbeiten."
+58;zurueckstellen;INTERSPORT Deutschland eG;Verbund;Verbund;Simon: kein Fokus (zu groß, kein Ansprechpartner);keine Aktion;Zentrale/Verband laut Simon kein Fokus.
+59;zurueckstellen;SPORT 2000 GmbH;Verbund;Verbund;Simon: kein Fokus (zu groß, kein Ansprechpartner);keine Aktion;Zentrale/Verband laut Simon kein Fokus.
+60;zurueckstellen;VDS;Verbund;Verband;Simon: kein Fokus;keine Aktion;Zentrale/Verband laut Simon kein Fokus.
